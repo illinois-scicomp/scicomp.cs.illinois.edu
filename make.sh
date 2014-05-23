@@ -5,6 +5,6 @@ set -x
 
 rm -f live/*.html
 
-for i in index.html ; do
-  mako-render $i > live/$i
+for i in *.html ; do
+  python render.py $i live/$i
 done
