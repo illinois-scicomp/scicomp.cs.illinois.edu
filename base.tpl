@@ -22,46 +22,65 @@
     <![endif]-->
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
 
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a class="navbar-brand" href="index.html">Scientific Computing at Illinois</a></li>
-              <li><a href="research.html">Research</a></li>
-              <li><a href="people.html">People</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="studies.html">Grad Studies</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="news-archive.html">News Archive</a></li>
-                </ul>
-              </li>
-            </ul>
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Scientific Computing at Illinois</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="research.html">Research</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="study.html">PhD program</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="news-archive.html">News Archive</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
     <%block name="full_content">
-      <div class="container">
+      <div class="container nonfrontpage">
         <%block name="content">
         Hi there.
         </%block>
       </div>
     </%block>
 
+    <footer>
+      <div class="container">
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>
+      <a href="https://bitbucket.org/lukeolson/scicomp-web/src/master/${FILENAME}">Source</a>
+      (To suggest changes, simply click 'Edit' on the other end of the 'Source' link.
+      You may need to sign up for an account in order for the button to show up.)
+      </p>
+      <p>&copy; University of Illinois at Urbana-Champaign</p>
+      </div>
+    </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
   </body>
 </html>
