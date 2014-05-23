@@ -34,7 +34,7 @@
 
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li><a class="navbar-brand" href="index.html">Scientific Computing at Illinois</a></li>
               <li><a href="research.html">Research</a></li>
               <li><a href="people.html">People</a></li>
               <li><a href="courses.html">Courses</a></li>
@@ -51,8 +51,12 @@
       </div>
     </div>
 
-    <%block name="content">
-      Hi there.
+    <%block name="full_content">
+      <div class="container">
+        <%block name="content">
+        Hi there.
+        </%block>
+      </div>
     </%block>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
