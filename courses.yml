@@ -1,0 +1,94 @@
+- number:
+  title:
+  frequency:
+  description: |
+    blah
+  editions:
+    - when:
+      description:
+      who:
+      url:
+
+- number: CS357
+  title: Numerical Methods I
+  frequency: Fall and Spring
+  description: |
+
+    <p>Credit: 3 hours.</p>
+
+    <p>Fundamentals of numerical methods for students in science and engineering; floating-point computation, systems of linear equations, approximation of functions and integrals, the single nonlinear equation, and the numerical solution of ordinary differential equations; various applications in science and engineering; programming exercises and use of high quality mathematical library routines.</p>
+
+    <p>Same as MATH 357. Credit is not given for CS 357 if credit for CS 450 has been earned. (Counts for advanced hours in LAS). Prerequisite: A 100-level computer science course; MATH 225 or MATH 415; MATH 241.</p>
+
+  editions:
+    - when: Fall 2014
+      who: Andreas Klöckner
+      url: https://bit.ly/cs357-f14
+
+    - when: Spring 2014
+      who: David Semeraro
+      url: http://courses.engr.illinois.edu/cs357/
+
+
+- number: CS450
+  title: Numerical Analysis
+  frequency: Fall and Spring
+  description: |
+
+    <p>Credit: 3 OR 4 hours.</p>
+
+    <p>Linear system solvers, optimization techniques, interpolation and approximation of functions, solving systems of nonlinear equations, eigenvalue problems, least squares, and quadrature; numerical handling of ordinary and partial differential equations.</p>
+
+    <p>Same as CSE 401, ECE 491, and MATH 450. 3 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both CS 450 and CS 457. Prerequisite: CS 101 or CS 125; CS 357 or MATH 415; MATH 285.</p>
+
+  editions:
+    - when: Spring 2014
+      who: Andreas Klöckner
+      url: https://bit.ly/cs450-s14
+
+    - when: Fall 2013
+      who: Mike Heath
+
+
+- number: CS457
+  title: Numerical Methods II
+  frequency: Spring
+
+
+
+- number: CS555
+  title: Numerical Methods for PDEs
+  frequency: Spring
+  editions:
+
+    - when: Spring 2014
+      who: Luke Olson
+
+    - when: Spring 2013
+      who: Luke Olson
+      url: https://wiki.engr.illinois.edu/display/cs555sp13/Home
+
+
+- number: CS556
+  title: Iterative and Multigrid Methods
+  frequency: Fall, even years
+  editions:
+
+    - when: Fall 2013
+      who: Luke Olson
+
+
+- number: CS558
+  title: Topics in Numerical Analysis
+  frequency: Irregularly
+
+
+- number: CS598
+  title: Topics in Numerical Analysis
+  frequency: Irregularly
+  editions:
+
+    - when: Fall 2013
+      description: Integral Equations and Fast Algorithms
+      who: Andreas Klöckner
+      url: https://bit.ly/inteq13

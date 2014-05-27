@@ -13,6 +13,8 @@
     <!-- Bootstrap -->
     <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/scicomp.css" rel="stylesheet">
+    <%block name="extra_header">
+    </%block>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +77,7 @@
           &middot;
         %endif
       %endfor
-      (To suggest changes, simply click 'Edit' on the other end of the 'Source' link.
+      (To suggest changes, simply click 'Edit' on the other end of the link(s).
       You may need to sign up for an account in order for the button to show up.)
       </p>
       <p>&copy; University of Illinois at Urbana-Champaign</p>
@@ -87,5 +89,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
     <script src="js/holder.js"></script>
+    <%block name="extra_scripts">
+    </%block>
   </body>
 </html>

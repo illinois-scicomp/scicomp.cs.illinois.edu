@@ -1,0 +1,45 @@
+<%inherit file="base.tpl"/>
+
+<%block name="title">
+Scientific Computing Group | Contact
+</%block>
+
+<%block name="extra_header">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</%block>
+
+<%block name="extra_scripts">
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script type="text/javascript">
+
+  // create a map in the "map" div, set the view to a given place and zoom
+  var map = L.map('map').setView([40.114, -88.225], 17);
+
+  // add an OpenStreetMap tile layer
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // add a marker in the given location, attach some popup content to it and open the popup
+  L.marker([40.11379, -88.22482]).addTo(map)
+  .bindPopup('Siebel Center<br> Department of Computer Science')
+      .openPopup();
+</script>
+
+</%block>
+
+<%block name="content">
+  <div id="map" style="height:500px; margin-bottom:3ex"></div>
+
+  <p>You can find us on the fourth floor, southeast corner of the
+  <a href="http://cs.illinois.edu/about-us/directions-siebel-center">Thomas M. Siebel Center for Computer Science</a>.
+  </p>
+
+  <p>Here's a mailing address:</p>
+
+  Scientific Computing Group<br>
+  Department of Computer Science<br>
+  201 N. Goodwin Ave<br>
+  Urbana, IL 61801
+
+</%block>
