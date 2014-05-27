@@ -69,7 +69,12 @@
       <div class="container">
       <p class="pull-right"><a href="#">Back to top</a></p>
       <p>
-      <a href="https://bitbucket.org/lukeolson/scicomp-web/src/master/${FILENAME}">Source</a>
+      %for i, (descr, source_file) in enumerate(SOURCES):
+        <a href="https://bitbucket.org/lukeolson/scicomp-web/src/master/${source_file}">Edit ${descr}</a>
+        %if i + 1 < len(SOURCES):
+          &middot;
+        %endif
+      %endfor
       (To suggest changes, simply click 'Edit' on the other end of the 'Source' link.
       You may need to sign up for an account in order for the button to show up.)
       </p>

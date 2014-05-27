@@ -12,5 +12,5 @@ with open(sys.argv[1], "rt", encoding="utf-8") as inf:
         strict_undefined=True)
     with open(sys.argv[2], "wt", encoding="utf-8") as outf:
         outf.write(tpl.render(
-            FILENAME=sys.argv[1],
+            SOURCES=[("page template", sys.argv[1])],
             ))
