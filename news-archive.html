@@ -5,5 +5,23 @@ Scientific Computing Group | Courses
 </%block>
 
 <%block name="content">
-<%include file="news-archive-table.html"/>
+
+<%
+SOURCES.insert(0, ("data", "news.yml"))
+
+import yaml
+from codecs import open
+with open("news.yml", "rt", encoding="utf-8") as inf:
+  news_items = yaml.load(inf)
+%>
+
+<ul>
+%for news_item in news_items:
+<li>
+  <h3>${news_item["date"]}: ${news_item["title"]}</h3>
+  ${news_item["note"]}
+</li>
+%endfor
+</ul>
+
 </%block>
