@@ -21,6 +21,7 @@
     <p>Same as MATH 357. Credit is not given for CS 357 if credit for CS 450 has been earned. (Counts for advanced hours in LAS). Prerequisite: A 100-level computer science course; MATH 225 or MATH 415; MATH 241.</p>
 
   editions:
+
     - when: Fall 2014
       who: Andreas Klöckner
       url: https://bit.ly/cs357-f14
@@ -59,10 +60,17 @@
 - number: CS555
   title: Numerical Methods for PDEs
   frequency: Spring
+  description: |
+    
+    <p>Credit: 4 hours.</p>
+
+    <p>Numerical techniques for initial and boundary value problems in partial differential equations. Finite difference and finite element discretization techniques, direct and iterative solution methods for discrete problems, and programming techniques and usage of software packages. Same as CSE 510. Prerequisite: CS 450 or CS 457.</p>
+
   editions:
 
     - when: Spring 2014
       who: Luke Olson
+      url: https://wiki.cites.illinois.edu/wiki/display/CS555SP14/Home
 
     - when: Spring 2013
       who: Luke Olson
@@ -72,6 +80,16 @@
 - number: CS556
   title: Iterative and Multigrid Methods
   frequency: Fall, even years
+
+  description: |
+    
+    <p>Credit: 4 hours.</p>
+
+    <p>Comprehensive treatment of algebraic and multigrid iterative methods to solve systems of equations, primarily linear equations arising from discretization of partial differential equations.</p>
+
+    <p>Same as CSE 511.</p>
+    
+
   editions:
 
     - when: Fall 2013

@@ -8,6 +8,14 @@ Scientific Computing Group | Courses
 <%
 SOURCES.insert(0, ("data", "courses.yml"))
 
+import re
+couresinit = ['CS', 'ECE', 'MATH', 'CSE']
+urlpattern = re.compile(r'\b(CS|CSE|MATH|ECE)\s*(\d+)')
+newurl = '<a href="https://courses.illinois.edu/cisapp/dispatcher/catalog/2014/fall/%s/%s">%s%s</a>'
+
+def urlify(somestring):
+    return urlpattern.sub(newurl%('\g<1>','\g<2>','\g<1>','\g<2>'), somestring)
+
 import yaml
 from codecs import open
 with open("courses.yml", "rt", encoding="utf-8") as inf:
@@ -18,12 +26,12 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
     %if not course["title"]:
     <% continue %>
     %endif
-    <h2>${course["number"]}: ${course["title"]}</h2>
+    <h2>${urlify(course["number"])}: ${course["title"]}</h2>
 
     <p>Offered ${course["frequency"]}.</p>
 
     %if course.get("description"):
-    <p>${course["description"]}</p>
+    <p>${urlify(course["description"])}</p>
     %endif
 
     %if course.get("editions"):
