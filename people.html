@@ -29,7 +29,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
       <div class="row">
     %endif
     <% counter += 1 %>
-    <div class="col-md-3">
+    <div class="col-md-4">
       %if p.get("image"):
         <div style="height: 300px">
           <img src="images/people/${p["image"]}" alt="${p["name"]}" width="80%" >

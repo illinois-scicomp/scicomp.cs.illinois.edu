@@ -13,6 +13,11 @@
 
 # {{{ faculty / emeritus
 
+- name: Paul Fischer
+  url:
+  image: paul-fischer.jpeg
+  category: faculty
+
 - name: William Gropp
   url: http://cs.illinois.edu/people/faculty/william-gropp
   image: bill-gropp.jpeg
@@ -36,12 +41,19 @@
 
 - name: Luke Olson
   url: http://www.cs.illinois.edu/~lukeo
-  image: luke-olson.jpeg
+  image: luke-olson2.jpeg
   category: faculty
+  blurb: 
+
+    Multigrid and iterative methods for sparse linear systems,
+    Least-squares finite element methods,
+    parallel numerical algorithms on GPUs and large-scale systems
+
 
 - name: Paul Saylor
   url: http://www.cs.illinois.edu/homes/saylor/
   category: emeritus
+  image: paul-saylor.jpeg
 
 # }}}
 

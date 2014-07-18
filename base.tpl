@@ -40,7 +40,6 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="research.html">Research</a></li>
                 <li><a href="people.html">People</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="study.html">PhD program</a></li>
