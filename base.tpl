@@ -72,7 +72,7 @@
       <p class="pull-right"><a href="#">Back to top</a></p>
       <p>
       %for i, (descr, source_file) in enumerate(SOURCES):
-        <a href="https://bitbucket.org/lukeolson/scicomp-web/src/master/${source_file}">Edit ${descr}</a>
+        <a href="https://bitbucket.org/illinois-scicomp/scicomp-web/src/master/${source_file}">Edit ${descr}</a>
         %if i + 1 < len(SOURCES):
           &middot;
         %endif
