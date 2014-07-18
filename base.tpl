@@ -13,6 +13,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/scicomp.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <%block name="extra_header">
     </%block>
 

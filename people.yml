@@ -49,7 +49,6 @@
     Least-squares finite element methods,
     parallel numerical algorithms on GPUs and large-scale systems
 
-
 - name: Paul Saylor
   url: http://www.cs.illinois.edu/homes/saylor/
   category: emeritus
@@ -59,47 +58,65 @@
 
 # {{{ grad
 
--
-  name: Amanda Bienz
+- name: Amanda Bienz
   category: grad
 
--
-  name: Elena Caraba
+- name: Nathan Bowman
+  category: grad
+
+- name: Jon Calhoun
+  category: grad
+
+- name: Elena Caraba
   url: http://www.cs.illinois.edu/homes/caraba1/
   category: grad
 
--
-  name: Steven Dalton
+- name: Erin Carrier
+  category: grad
+
+- name: Steven Dalton
   url: http://www.linkedin.com/pub/steven-dalton/58/3aa/623
   category: grad
 
--
-  name: Hormozd Gahvari
+- name: Paul Eller
+  category: grad
+
+- name: Hormozd Gahvari
   url: http://www.cs.illinois.edu/homes/gahvari/
   category: grad
 
--
-  name: Peng Jiang
+- name: Scott High
+  category: grad
+
+- name: Adam Hug
+  category: grad
+
+- name: Peng Jiang
   url: http://www.cs.illinois.edu/homes/pjiang2/
   category: grad
 
--
-  name: Kaushik Kalyanaraman
+- name: Kaushik Kalyanaraman
   url: http://web.engr.illinois.edu/~kalyana1/
   category: grad
 
--
-  name: Kyle McKiou
+- name: Samah Karim
   category: grad
 
--
-  name: Matthew Michelotti
+- name: Kyle McKiou
   category: grad
 
--
-  name: Dmitry Yershov
-  url: http://www.cs.illinois.edu/homes/yershov2/
+- name: Matthew Michelotti
   category: grad
+
+- name: Erin Molloy
+  category: grad
+
+- name: Andrew Reisner
+  category: grad
+
+- name: Matt Walla
+  category: grad
+
 
 # }}}
 

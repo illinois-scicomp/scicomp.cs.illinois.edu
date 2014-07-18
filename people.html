@@ -29,7 +29,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
       <div class="row">
     %endif
     <% counter += 1 %>
-    <div class="col-md-4">
+    <div class="col-md-3">
       %if p.get("image"):
         <div style="height: 300px">
           <img src="images/people/${p["image"]}" alt="${p["name"]}" width="80%" >
@@ -40,12 +40,17 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
         %if p["category"] == "emeritus":
         (Emeritus)
         %endif
+        %if p.get("url"):
+          %if p.get("category")=="faculty" or p.get("category")=="faculty":
+            <p><a class="btn btn-default" href="${p["url"]}" role="button">Web page &raquo;</a></p>
+          %endif
+          %if p.get("category") == "grad":
+            <a href="${p["url"]}"><i class="fa fa-external-link"></i></a>
+          %endif
+        %endif
       </h4>
       %if p.get("blurb"):
         <p>${p["blurb"]}</p>
-      %endif
-      %if p.get("url"):
-        <p><a class="btn btn-default" href="${p["url"]}" role="button">Web page &raquo;</a></p>
       %endif
     </div>
   %endfor
