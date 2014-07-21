@@ -1,5 +1,6 @@
 - number:
   title:
+  image:
   frequency:
   description: |
     blah
@@ -79,6 +80,7 @@
 
 - number: CS556
   title: Iterative and Multigrid Methods
+  image: cs556.jpeg
   frequency: Fall, even years
 
   description: |

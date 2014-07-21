@@ -70,15 +70,20 @@
     <footer>
       <div class="container">
       <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>
+      <p><i>Have a change or suggestion?</i> Using a bitbucket account you can edit
       %for i, (descr, source_file) in enumerate(SOURCES):
-        <a href="https://bitbucket.org/illinois-scicomp/scicomp-web/src/master/${source_file}">Edit ${descr}</a>
-        %if i + 1 < len(SOURCES):
-          &middot;
+        the
+        <a href="https://bitbucket.org/illinois-scicomp/web/src/master/${source_file}">
+          <i class="fa fa-pencil-square-o"></i>
+          ${descr} (${source_file})</a>
+        %if len(SOURCES) == 2 and i+1 == len(SOURCES)-1:
+           or 
+        %elif i+1 == len(SOURCES)-1:
+          , or 
+        %elif i+1 < len(SOURCES):
+          ,
         %endif
       %endfor
-      (To suggest changes, simply click 'Edit' on the other end of the link(s).
-      You may need to sign up for an account in order for the button to show up.)
       </p>
       <p>&copy; University of Illinois at Urbana-Champaign</p>
       </div>

@@ -17,16 +17,33 @@
   url:
   image: paul-fischer.jpeg
   category: faculty
+  blurb:
+
+    Numerical PDEs,
+    spectral element methods,
+    CFD,
+    parallel and high-perfrmance algorithms,
+    iterative methods
 
 - name: William Gropp
   url: http://cs.illinois.edu/people/faculty/william-gropp
   image: bill-gropp.jpeg
   category: faculty
+  blurb:
+
+    High performance numerical algorithms,
+    parallel computing, message passing interface (MPI),
+    parallel performance,
+    multilevel methods for numerical PDEs
 
 - name: Michael Heath
   url: http://www.cs.uiuc.edu/~heath/
   image: mike-heath.jpeg
   category: faculty
+  blurb:
+
+    Numerical linear algebra and optimizaiton,
+    parallel numerical algorithms
 
 - name: Andreas Klöckner
   url: http://www.cs.illinois.edu/~andreask
@@ -35,9 +52,9 @@
   blurb:
 
     Integral equation methods for PDEs,
-    High-order finite element methods for hyperbolic PDEs,
-    Tools and languages for high-performance computing,
-    Time integration
+    high-order finite element methods for hyperbolic PDEs,
+    tools and languages for high-performance computing,
+    time integration
 
 - name: Luke Olson
   url: http://www.cs.illinois.edu/~lukeo
@@ -46,7 +63,7 @@
   blurb: 
 
     Multigrid and iterative methods for sparse linear systems,
-    Least-squares finite element methods,
+    least-squares finite element methods,
     parallel numerical algorithms on GPUs and large-scale systems
 
 - name: Paul Saylor
