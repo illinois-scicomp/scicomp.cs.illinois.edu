@@ -69,6 +69,14 @@ footer {
   height: 500px;
 }
 
+.apply {
+  margin-top: 200px;
+}
+
+.question {
+  font-size: 300px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

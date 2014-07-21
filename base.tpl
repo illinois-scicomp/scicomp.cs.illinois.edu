@@ -42,15 +42,17 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="people.html">People</a></li>
-                <li><a href="courses.html">Courses</a></li>
                 <li><a href="study.html">PhD program</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <!--
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="news-archive.html">News Archive</a></li>
-                    <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </li>
+                -->
+                <li><a href="news-archive.html">News Archive</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </div>

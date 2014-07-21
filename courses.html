@@ -31,6 +31,10 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
       <a href="#" class="pull-left">
         <img src="images/${course["image"]}" alt="${course["number"]}" height="150px" class="media-object"/>
       </a>
+      %else:
+      <a href="#" class="pull-left">
+        <img src="holder.js/150x150/#fff:#fff" alt="${course["number"]}" class="media-object"/>
+      </a>
       %endif
       <div class="media-body">
       <h2>${urlify(course["number"])}: ${course["title"]}</h2>
@@ -61,9 +65,9 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
             %endif
           </li>
         %endfor
-      </div>
-      </div>
       </ul>
     %endif
+    </div>
+    </div>
   %endfor
 </%block>
