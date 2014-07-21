@@ -26,10 +26,11 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
     %if not course["title"]:
     <% continue %>
     %endif
+    <hr>
     <div class="media">
       %if course.get("image"):
       <a href="#" class="pull-left">
-        <img src="images/${course["image"]}" alt="${course["number"]}" height="150px" class="media-object"/>
+        <img src="images/${course["image"]}" alt="${course["number"]}" height="150px" class="media-object img-rounded"/>
       </a>
       %else:
       <a href="#" class="pull-left">
