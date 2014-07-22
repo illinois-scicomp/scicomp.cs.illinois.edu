@@ -18,11 +18,6 @@ body {
   z-index: 20;
 }
 
-.faculty-row {
-  margin-top:4ex;
-  margin-bottom:4ex;
-}
-
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-right: 0;
@@ -129,7 +124,38 @@ footer {
   }
 }
 
+/* PEOPLE PAGE
+-------------------------------------------------- */
+
 .multicol-list {
   -moz-column-count:3;
+  -moz-padding-start:0px;
+  -moz-padding-end:0px;
+
   -webkit-column-count:3;
+  -webkit-padding-start:0px;
+  -webkit-padding-end:0px;
 }
+
+.faculty-row {
+  margin-top:4ex;
+  margin-bottom:4ex;
+}
+
+.grad-list {
+  
+}
+
+.grad-list {
+  font-size: large;
+  line-height: 150%;
+}
+
+.grad-list a:link {
+  color:#5a5a5a;
+}
+
+.grad-list a:visited {
+  color:#5a5a5a;
+}
+

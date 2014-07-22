@@ -23,54 +23,72 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
 
 %>
 
-<%def name="col_list(who)">
-  <% counter = 0 %>
-  %for p in who:
-    %if counter == 0:
-      <div class="row faculty-row">
-    %elif counter % 3 == 0:
-      </div>
-      <div class="row faculty-row">
-    %endif
-    <% counter += 1 %>
-    <div class="col-md-4">
-      %if p.get("image"):
-        <div style="height: 300px">
-          <img src="images/people/${p["image"]}" alt="${p["name"]}" height="300" class="img-rounded">
-        </div>
-      %endif
-      <h4>
-        ${p["name"]}
-        %if p["category"] == "emeritus":
-        (Emeritus)
-        %endif
-      </h4>
-      %if p.get("url"):
-        %if p.get("category")=="faculty" or p.get("category")=="emeritus":
-          <a class="btn btn-default" href="${p["url"]}" role="button">
-            Web page
-           <i class="fa fa-external-link"></i>
-          </a>
-        %endif
-        %if p.get("category") == "grad":
-          <a href="${p["url"]}"><i class="fa fa-external-link"></i></a>
-        %endif
-      %endif
-      %if p.get("blurb"):
-        <p>${p["blurb"]}</p>
-      %endif
-    </div>
-  %endfor
-  </div>
-</%def>
 
 <h1>Faculty</h1>
 
-${col_list([p for p in people if p["category"] in ["faculty", "emeritus"]])}
+<% counter = 0 %>
+%for p in people:
+  <%
+  if p["category"] not in ["faculty", "emeritus"]:
+      continue
+  %>
+
+  %if counter == 0:
+    <div class="row faculty-row">
+  %elif counter % 3 == 0:
+    </div>
+    <div class="row faculty-row">
+  %endif
+  <% counter += 1 %>
+  <div class="col-md-4">
+    %if p.get("image"):
+      <div style="height: 300px">
+        <img src="images/people/scaled/${p["image"]}" alt="${p["name"]}" height="300" class="img-rounded">
+      </div>
+    %endif
+    <h4>
+      ${p["name"]}
+      %if p["category"] == "emeritus":
+      (Emeritus)
+      %endif
+    </h4>
+    %if p.get("blurb"):
+      <p>${p["blurb"]}</p>
+    %endif
+    %if p.get("url"):
+        <a class="btn btn-default" href="${p["url"]}" role="button">
+          Web page
+         <i class="fa fa-external-link"></i>
+        </a>
+    %endif
+  </div>
+%endfor
+</div>
 
 <h1>Graduate Students</h1>
 
-${col_list([p for p in people if p["category"] == "grad"])}
+<% counter = 0 %>
+%for p in people:
+  <%
+  if p["category"] != "grad":
+      continue
+  %>
+  %if counter == 0:
+    <div class="row grad-row">
+  %elif counter % 3 == 0:
+    </div>
+    <div class="row grad-row">
+  %endif
+  <% counter += 1 %>
+  <div class="col-md-4 grad-list">
+    %if p.get("url"):
+      <a href="${p["url"]}">${p["name"]} <i class="fa fa-external-link"></i></a>
+    %else:
+      ${p["name"]}
+    %endif
+  </div>
+%endfor
+</div>
 
 <h1>Alumni</h1>
 
