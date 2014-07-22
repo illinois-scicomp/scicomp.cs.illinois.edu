@@ -18,6 +18,11 @@ body {
   z-index: 20;
 }
 
+.faculty-row {
+  margin-top:4ex;
+  margin-bottom:4ex;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-right: 0;

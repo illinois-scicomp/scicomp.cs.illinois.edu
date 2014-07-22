@@ -18,6 +18,8 @@
 
     Credit: 3 hours.
 
+    This introductory course on numerical methods prepares undergraduate CS majors for applications of numerical methods they will encounter as part of the undergraduate and early graduate Computer Science curriculum.
+
     Fundamentals of numerical methods for students in science and engineering; floating-point computation, systems of linear equations, approximation of functions and integrals, the single nonlinear equation, and the numerical solution of ordinary differential equations; various applications in science and engineering; programming exercises and use of high quality mathematical library routines.
 
     Same as MATH 357. Credit is not given for CS 357 if credit for CS 450 has been earned. (Counts for advanced hours in LAS). Prerequisite: A 100-level computer science course; MATH 225 or MATH 415; MATH 241.
@@ -40,6 +42,11 @@
   description: |
 
     Credit: 3 OR 4 hours.
+
+    This fast-moving course builds up numerical analysis from the very basics
+    up to advanced topics, including a glimpse of PDE solving technology. It is
+    commonly taken by beginning graduate students in scientific computing as
+    well as the engineering disciplines.
 
     Linear system solvers, optimization techniques, interpolation and approximation of functions, solving systems of nonlinear equations, eigenvalue problems, least squares, and quadrature; numerical handling of ordinary and partial differential equations.
 
