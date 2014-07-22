@@ -9,6 +9,10 @@ Scientific Computing Group | People
 <%block name="content">
 
 <%
+import re
+
+def reampurl(somestring):
+  return re.sub('&(?!amp;)', '&amp;', somestring)
 
 SOURCES.insert(0, ("data", "people.yml"))
 
@@ -32,7 +36,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
     <div class="col-md-4">
       %if p.get("image"):
         <div style="height: 300px">
-          <img src="images/people/${p["image"]}" alt="${p["name"]}" height="300px" class="img-rounded">
+          <img src="images/people/${p["image"]}" alt="${p["name"]}" height="300" class="img-rounded">
         </div>
       %endif
       <h4>
