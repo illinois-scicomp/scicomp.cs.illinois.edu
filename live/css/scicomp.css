@@ -159,3 +159,14 @@ footer {
   color:#5a5a5a;
 }
 
+/* COURSE PAGE
+-------------------------------------------------- */
+
+.course-listing h2 {
+  margin-top:0;
+}
+
+h1.course-header {
+  margin-bottom:2ex;
+}
+
