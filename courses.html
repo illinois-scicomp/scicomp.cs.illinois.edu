@@ -43,7 +43,11 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
       <p>Offered ${course["frequency"]}.</p>
 
     %if course.get("description"):
-    <p>${urlify(course["description"])}</p>
+      %for d in urlify(course["description"]).split("\n\n"):
+        %if len(d.strip()): 
+          <p>${d}</p>
+        %endif
+      %endfor
     %endif
 
     %if course.get("editions"):
