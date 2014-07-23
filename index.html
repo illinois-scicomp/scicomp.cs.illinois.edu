@@ -1,5 +1,10 @@
 <%inherit file="base.tpl"/>
 
+<%block name="extra_header">
+<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="owl-carousel/owl.theme.css" rel="stylesheet">
+</%block>
+
 <%block name="title">
   Scientific Computing at UIUC
 </%block>
@@ -55,6 +60,14 @@
       <a href="http://www.illinois.edu">University of Illinois at Urbana-Champaign</a>.
     </p>
 
+  <div class="container">
+    <div id="owl-demo" class="owl-carousel owl-theme">
+      <div class="item"><img src="images/siebel-center2.jpeg" alt="The Last of us"></div>
+      <div class="item"><img src="images/mesh.png" alt="GTA V"></div>
+      <div class="item"><img src="images/matrix.png" alt="Mirror Edge"></div>
+    </div>
+  </div>
+
     <div class="row">
       <div class="col-md-4">
         <a class="btn btn-default" href="people.html" role="button">
@@ -82,4 +95,40 @@
      </div>
     </div>
   </div>
+
+  <%block name="extra_scripts">
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+
+    <!-- Owl -->
+
+    <style>
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+      });
+    });
+    </script>
+  </%block>
 </%block>
