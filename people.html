@@ -24,6 +24,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
 %>
 
 
+<a name="faculty"></a>
 <h1>Faculty</h1>
 
 <% counter = 0 %>
@@ -40,31 +41,37 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
     <div class="row faculty-row">
   %endif
   <% counter += 1 %>
-  <div class="col-md-4">
+  <div class="col-md-4 faculty-list">
     %if p.get("image"):
       <div style="height: 300px">
         <img src="images/people/scaled/${p["image"]}" alt="${p["name"]}" height="300" class="img-rounded">
       </div>
     %endif
-    <h4>
-      ${p["name"]}
-      %if p["category"] == "emeritus":
-      (Emeritus)
+    <div class="faculty-name">
+      %if p.get("url"):
+        <a href="${p["url"]}">${p["name"]} 
+          %if p["category"] == "emeritus":
+            (Emeritus)
+          %endif
+
+          <i class="fa fa-external-link"></i></a>
+      %else:
+        ${p["name"]}
+
+        %if p["category"] == "emeritus":
+          (Emeritus)
+        %endif
       %endif
-    </h4>
+    </div>
+
     %if p.get("blurb"):
       <p>${p["blurb"]}</p>
-    %endif
-    %if p.get("url"):
-        <a class="btn btn-default" href="${p["url"]}" role="button">
-          Web page
-         <i class="fa fa-external-link"></i>
-        </a>
     %endif
   </div>
 %endfor
 </div>
 
+<a name="grads"></a>
 <h1>Graduate Students</h1>
 
 <% counter = 0 %>
@@ -90,6 +97,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
 %endfor
 </div>
 
+<a name="alumni"></a>
 <h1>Alumni</h1>
 
 <ul class="multicol-list">
@@ -105,6 +113,7 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
   %endfor
 </ul>
 
+<a name="former"></a>
 <h1>Former Faculty and Postdoctoral Research Associates</h1>
 
 <ul class="multicol-list">

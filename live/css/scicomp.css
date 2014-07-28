@@ -5,6 +5,28 @@ body {
   color: #5a5a5a;
 }
 
+.scicomp-rclear {
+  clear:right;
+}
+
+.well h3 {
+  margin-top:0;
+}
+
+#logodiv {
+  float:left;
+  margin-right:0.5em;
+  margin-top:-5px;
+  margin-left:-3px;
+
+  -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.main-content {
+  margin-top: 1ex;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -124,6 +146,17 @@ footer {
   }
 }
 
+/* ROOT PAGE
+-------------------------------------------------- */
+
+div.carousel {
+  margin-bottom:20px;
+}
+
+p.who-we-are {
+  margin-bottom:0px;
+}
+
 /* PEOPLE PAGE
 -------------------------------------------------- */
 
@@ -143,10 +176,6 @@ footer {
 }
 
 .grad-list {
-  
-}
-
-.grad-list {
   font-size: large;
   line-height: 150%;
 }
@@ -157,6 +186,20 @@ footer {
 
 .grad-list a:visited {
   color:#5a5a5a;
+}
+
+.faculty-list a:link {
+  color:#5a5a5a;
+}
+
+.faculty-list a:visited {
+  color:#5a5a5a;
+}
+
+.faculty-name {
+  font-size: large;
+  padding-top: 1.5ex;
+  padding-bottom: 1ex;
 }
 
 /* COURSE PAGE

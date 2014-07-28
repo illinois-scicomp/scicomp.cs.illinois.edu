@@ -26,7 +26,7 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
   courses = yaml.load(inf)
 %>
 
-  <h1 class="course-header">Courses Offered</h1>
+  <h1 class="course-header">Our Courses</h1>
 
   %for course in courses:
     %if not course["title"]:
@@ -34,15 +34,16 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
     %endif
     <div class="media course-listing">
       %if course.get("image"):
-      <a href="#" class="pull-left">
+      <span class="pull-left">
         <img src="images/${course["image"]}" alt="${course["number"]}" height="150" class="media-object img-rounded"/>
-      </a>
+      </span>
       %else:
-      <a href="#" class="pull-left">
+      <span class="pull-left">
         <img src="holder.js/150x150/#fff:#fff" alt="${course["number"]}" class="media-object"/>
-      </a>
+      </span>
       %endif
       <div class="media-body">
+      <a name="${course["number"]}"></a>
       <h2>${urlify(course["number"])} &middot; ${course["title"]}</h2>
 
       <p>Offered ${course["frequency"]}.</p>
