@@ -88,10 +88,18 @@ with open("people.yml", "rt", encoding="utf-8") as inf:
   %endif
   <% counter += 1 %>
   <div class="col-md-4 grad-list">
+    <%
+      name = p["name"]
+    %>
+    %if p.get("dept"):
+    <%
+      name += " (" + p["dept"] + ")"
+    %>
+    %endif
     %if p.get("url"):
-      <a href="${p["url"]}">${p["name"]} <i class="fa fa-external-link"></i></a>
+      <a href="${p["url"]}">${name} <i class="fa fa-external-link"></i></a>
     %else:
-      ${p["name"]}
+      ${name}
     %endif
   </div>
 %endfor

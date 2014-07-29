@@ -75,6 +75,10 @@
 
 # {{{ grad
 
+- name: Natalie Beams
+  dept: MechSE
+  category: grad
+
 - name: Amanda Bienz
   category: grad
 
@@ -85,11 +89,14 @@
   url: http://www.cs.illinois.edu/homes/caraba1/
   category: grad
 
+- name: Jon Calhoun
+  category: grad
+
 - name: Erin Carrier
   category: grad
 
 - name: Steven Dalton
-  url: http://www.linkedin.com/pub/steven-dalton/58/3aa/623
+  url: http://ews.illinois.edu/~dalton6/
   category: grad
 
 - name: Paul Eller
@@ -99,14 +106,21 @@
   url: http://www.cs.illinois.edu/homes/gahvari/
   category: grad
 
+- name: Eslami Hassan
+  category: grad
+
 - name: Scott High
   category: grad
 
 - name: Adam Hug
+  dept: ECE
   category: grad
 
 - name: Peng Jiang
   url: http://www.cs.illinois.edu/homes/pjiang2/
+  category: grad
+
+- name: Vivek Kale
   category: grad
 
 - name: Kaushik Kalyanaraman
@@ -119,16 +133,25 @@
 - name: Kyle McKiou
   category: grad
 
+- name: Huong Luu
+  category: grad
+
 - name: Matthew Michelotti
   category: grad
 
 - name: Erin Molloy
   category: grad
 
+- name: Tarun Prabhu
+  category: grad
+
 - name: Andrew Reisner
   category: grad
 
 - name: Matt Wala
+  category: grad
+
+- name: Xin Zhao
   category: grad
 
 # }}}
