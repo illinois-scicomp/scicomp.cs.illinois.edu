@@ -21,7 +21,7 @@
 
     Numerical PDEs,
     spectral element methods,
-    CFD,
+    computational fluid dynamics,
     parallel and high-perfrmance algorithms,
     iterative methods
 
@@ -42,7 +42,7 @@
   category: faculty
   blurb:
 
-    Numerical linear algebra and optimizaiton,
+    Numerical linear algebra and optimization,
     parallel numerical algorithms
 
 - name: Andreas Klöckner
@@ -79,9 +79,6 @@
   category: grad
 
 - name: Nathan Bowman
-  category: grad
-
-- name: Jon Calhoun
   category: grad
 
 - name: Elena Caraba

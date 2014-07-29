@@ -15,6 +15,13 @@ with open("news.yml", "rt", encoding="utf-8") as inf:
   news_items = yaml.load(inf)
 %>
 
+<h1>News Archive</h1>
+
+<p>
+These old news clips were salvaged from our previous web site. They are
+preserved here as a glimpse of our group's history.
+</p>
+
 <ul>
 %for news_item in news_items:
 <li>

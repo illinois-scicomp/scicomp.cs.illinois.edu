@@ -37,7 +37,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">Scientific Computing at Illinois</a>
+              <a class="navbar-brand" href="index.html">
+              <div id="logodiv"><img src="images/uiuc-logo.png" alt="UIUC logo" height="65" width="50"></div>
+              Scientific Computing at Illinois
+              </a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -62,7 +65,7 @@
     </div>
 
     <%block name="full_content">
-      <div class="container nonfrontpage">
+      <div class="container nonfrontpage main-content">
         <%block name="content">
         Hi there.
         </%block>
@@ -71,8 +74,8 @@
 
     <footer>
       <div class="container">
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p><i>Have a change or suggestion?</i> Using a bitbucket account you can edit
+      <!--<p class="pull-right"><a href="#">Back to top</a></p>-->
+      <p><i>Have a suggestion?</i> Using a bitbucket account you can edit
       %for i, (descr, source_file) in enumerate(SOURCES):
         the
         <a href="https://bitbucket.org/illinois-scicomp/web/src/master/${source_file}">
