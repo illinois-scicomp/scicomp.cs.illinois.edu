@@ -8,8 +8,9 @@ for f in ./live/images/people/*jpeg; do
   dn=$(dirname $f)
   bn=$(basename $f)
   scaled="$dn/scaled/$bn"
-  if test "$f" -nt "$scaled"; then
-    convert -geometry 500x500 "$f" "$scaled"
+  if [ "$f" -nt "$scaled" ] || [ "${0}" -nt "$scaled" ]; then
+    #convert -geometry 500x500 "$f" "$scaled"
+    convert -resize 360x500^ -gravity center -extent 360x500 "$f" "$scaled"
   fi
 done
 
