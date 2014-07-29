@@ -1,8 +1,6 @@
 <%inherit file="base.tpl"/>
 
 <%block name="extra_header">
-<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="owl-carousel/owl.theme.css" rel="stylesheet">
 </%block>
 
 <%block name="title">
@@ -92,38 +90,5 @@
   </div>
 
   <%block name="extra_scripts">
-    <script src="owl-carousel/owl.carousel.js"></script>
-
-
-    <!-- Owl -->
-
-    <style>
-    #owl-demo .item img{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    </style>
-
-
-    <script>
-    $(document).ready(function() {
-      $("#owl-demo").owlCarousel({
-
-      navigation : true,
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem : true
-
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
-
-      });
-    });
-    </script>
   </%block>
 </%block>
