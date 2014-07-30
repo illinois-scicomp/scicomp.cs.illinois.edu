@@ -80,8 +80,12 @@ footer {
 .toptitle {
   font-size:60px;
   font-weight:bold;
+  /*
   height:600px;
   padding-top:350px;
+  */
+  padding-top: 40%;
+  padding-bottom: 20%;
   z-index: 10;
   color: #fff;
   -moz-text-shadow: 0 5px 5px rgba(0, 0, 0, .6);
