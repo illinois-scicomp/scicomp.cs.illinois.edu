@@ -102,10 +102,6 @@
 - name: Paul Eller
   category: grad
 
-- name: Hormozd Gahvari
-  url: http://www.cs.illinois.edu/homes/gahvari/
-  category: grad
-
 - name: Eslami Hassan
   category: grad
 
@@ -114,10 +110,6 @@
 
 - name: Adam Hug
   dept: ECE
-  category: grad
-
-- name: Peng Jiang
-  url: http://www.cs.illinois.edu/homes/pjiang2/
   category: grad
 
 - name: Vivek Kale
@@ -170,7 +162,7 @@
   url: http://www.volition-inc.com/staff/phil-alexander/
 - category: alumni
   degree_what: MS
-  degree_year: '2005'
+  degree_year: 2005
   name: Tyler Alumbaugh
 - category: alumni
   degree_what: MS
@@ -179,7 +171,7 @@
   url: http://www.cs.utk.edu/~eanderso/
 - category: alumni
   degree_what: PhD
-  degree_year: '2012'
+  degree_year: 2012
   name: Nana Arizumi
 - category: alumni
   degree_what: PhD
@@ -203,7 +195,7 @@
   url: http://web.eecs.utk.edu/~berry/
 - category: alumni
   degree_what: MS
-  degree_year: '1995'
+  degree_year: 1995
   name: Robert Block
 - category: alumni
   degree_what: PhD
@@ -212,7 +204,7 @@
   url: http://casswww.ucsd.edu/index.php/faculty:Jobordner
 - category: alumni
   degree_what: PhD
-  degree_year: '1971'
+  degree_year: 1971
   name: Amnon Bracha
 - category: alumni
   degree_what: PhD
@@ -221,11 +213,11 @@
   url: http://www.soic.indiana.edu/people/profiles/bramley-randall.shtml
 - category: alumni
   degree_what: PhD
-  degree_year: '1975'
+  degree_year: 1975
   name: Roy L. Brown Jr.
 - category: alumni
   degree_what: MCS
-  degree_year: '2003'
+  degree_year: 2003
   name: Rossana Castro
 - category: alumni
   degree_what: PhD
@@ -234,11 +226,11 @@
   url: http://www.cis.cau.edu/~hchen/
 - category: alumni
   degree_what: MS
-  degree_year: '2005'
+  degree_year: 2005
   name: Zhen Cheng
 - category: alumni
   degree_what: PhD
-  degree_year: '2002'
+  degree_year: 2002
   name: Wing Fai Chow
 - category: alumni
   degree_what: PhD
@@ -247,7 +239,7 @@
   url: http://www.cs.utsa.edu/faculty/atc/
 - category: alumni
   degree_what: PhD
-  degree_year: '1975'
+  degree_year: 1975
   name: Won Lyang Chung
 - category: alumni
   degree_what: PhD
@@ -271,15 +263,15 @@
   url: http://www.cise.ufl.edu/~davis/
 - category: alumni
   degree_what: PhD
-  degree_year: '1972'
+  degree_year: 1972
   name: Martin Diamond
 - category: alumni
   degree_what: MS
-  degree_year: '2003'
+  degree_year: 2003
   name: Robert Engle
 - category: alumni
   degree_what: MS
-  degree_year: '1995'
+  degree_year: 1995
   name: Paulo Figueiredo
 - category: alumni
   degree_what: BS
@@ -291,6 +283,11 @@
   degree_year: 1993
   name: Albert Galick
   url: http://www.linkedin.com/pub/albert-galick/3/b11/884
+- name: Hormozd Gahvari
+  url: http://www.cs.illinois.edu/homes/gahvari/
+  category: alumni
+  degree_what: PhD
+  degree_year: 2014
 - category: alumni
   degree_what: PhD
   degree_year: 1983
@@ -318,7 +315,7 @@
   url: http://www.princeton.edu/~wgear/
 - category: alumni
   degree_what: MS
-  degree_year: '1994'
+  degree_year: 1994
   name: Robert Gjertsen
 - category: alumni
   degree_what: PhD
@@ -352,7 +349,7 @@
   url: http://www.ivec.org/node/535
 - category: alumni
   degree_what: BS
-  degree_year: '2012'
+  degree_year: 2012
   name: Tom Hayes
 - category: alumni
   degree_what: PhD
@@ -384,6 +381,11 @@
   degree_year: 2000
   name: Jesus Izaguirre
   url: http://engineering.nd.edu/profiles/jizaguirre
+- name: Peng Jiang
+  url: http://www.cs.illinois.edu/homes/pjiang2/
+  category: alumni
+  degree_what: PhD
+  degree_year: 2013
 - category: alumni
   degree_what: PhD
   degree_year: 2001
@@ -391,15 +393,15 @@
   url: http://www.ams.sunysb.edu/~jiao/
 - category: alumni
   degree_what: PhD
-  degree_year: '1990'
+  degree_year: 1990
   name: Fen Lien Juang
 - category: alumni
   degree_what: PhD
-  degree_year: '1984'
+  degree_year: 1984
   name: Emmanuel Kamgnia
 - category: alumni
   degree_what: PhD
-  degree_year: '1986'
+  degree_year: 1986
   name: Chandrika Kamath
 - category: alumni
   degree_what: PhD
@@ -408,31 +410,31 @@
   url: http://www.stephenwolfram.com/publications/other-pubs/95-keiper.html
 - category: alumni
   degree_what: PhD
-  degree_year: '1973'
+  degree_year: 1973
   name: Young Jip Kim
 - category: alumni
   degree_what: PhD
-  degree_year: '1978'
+  degree_year: 1978
   name: Antony Kong
 - category: alumni
   degree_what: PhD
-  degree_year: '2012'
+  degree_year: 2012
   name: James Lai
 - category: alumni
   degree_what: MS
-  degree_year: '1996'
+  degree_year: 1996
   name: Minghorng Lai
 - category: alumni
   degree_what: PhD
-  degree_year: '1972'
+  degree_year: 1972
   name: Leonard Larsen
 - category: alumni
   degree_what: PhD
-  degree_year: '1978'
+  degree_year: 1978
   name: John Larson
 - category: alumni
   degree_what: PhD
-  degree_year: '1991'
+  degree_year: 1991
   name: Daeshik Lee
 - category: alumni
   degree_what: PhD
@@ -446,23 +448,23 @@
   url: http://www.maths.ed.ac.uk/people/show?person=10
 - category: alumni
   degree_what: PhD
-  degree_year: '1972'
+  degree_year: 1972
   name: Raymond Lermit
 - category: alumni
   degree_what: PhD
-  degree_year: '1976'
+  degree_year: 1976
   name: Bruce Link
 - category: alumni
   degree_what: PhD
-  degree_year: '2004'
+  degree_year: 2004
   name: Vanessa Lopez
 - category: alumni
   degree_what: PhD
-  degree_year: '1992'
+  degree_year: 1992
   name: Gang Lou
 - category: alumni
   degree_what: MS
-  degree_year: '2003'
+  degree_year: 2003
   name: Greg Mackey
 - category: alumni
   degree_what: PhD
@@ -476,7 +478,7 @@
   url: http://www.linkedin.com/pub/bret-marsolf/16/8a7/760
 - category: alumni
   degree_what: BS
-  degree_year: '2012'
+  degree_year: 2012
   name: Kyle McKiou
 - category: alumni
   degree_what: PhD
@@ -520,19 +522,19 @@
   url: http://csmr.ca.sandia.gov/~apinar/
 - category: alumni
   degree_what: PhD
-  degree_year: '2011'
+  degree_year: 2011
   name: Adam Reichert
 - category: alumni
   degree_what: PhD
-  degree_year: '1979'
+  degree_year: 1979
   name: Richard Roloff
 - category: alumni
   degree_what: PhD
-  degree_year: '1981'
+  degree_year: 1981
   name: Mitchell Roth
 - category: alumni
   degree_what: PhD
-  degree_year: '1994'
+  degree_year: 1994
   name: Sirpa Saarinen
 - category: alumni
   degree_what: PhD
@@ -541,7 +543,7 @@
   url: http://faculty.cs.tamu.edu/sarin/
 - category: alumni
   degree_what: PhD
-  degree_year: '1987'
+  degree_year: 1987
   name: Mark Schaeffer
 - category: alumni
   degree_what: BS
@@ -565,7 +567,7 @@
   url: http://www.ncsa.illinois.edu/~semeraro/
 - category: alumni
   degree_what: PhD
-  degree_year: '1983'
+  degree_year: 1983
   name: Qasin Sheikh
 - category: alumni
   degree_what: PhD
@@ -579,7 +581,7 @@
   url: http://www.cs.ucr.edu/~shinar/
 - category: alumni
   degree_what: PhD
-  degree_year: '1984'
+  degree_year: 1984
   name: Sumantri Slamet
 - category: alumni
   degree_what: PhD
@@ -608,15 +610,15 @@
   url: http://www.csupomona.edu/~math/tenurefaculty.html
 - category: alumni
   degree_what: PhD
-  degree_year: '1989'
+  degree_year: 1989
   name: Hon Wah Tam
 - category: alumni
   degree_what: MS
-  degree_year: '2001'
+  degree_year: 2001
   name: Ismail Tezcan
 - category: alumni
   degree_what: PhD
-  degree_year: '1972'
+  degree_year: 1972
   name: Kai-Wen Tu
 - category: alumni
   degree_what: PhD
@@ -625,15 +627,15 @@
   url: http://www.linkedin.com/pub/evan-vanderzee/4/512/63
 - category: alumni
   degree_what: PhD
-  degree_year: '1980'
+  degree_year: 1980
   name: John Van Rosendale
 - category: alumni
   degree_what: PhD
-  degree_year: '1999'
+  degree_year: 1999
   name: Akhil Vidwans
 - category: alumni
   degree_what: PhD
-  degree_year: '1983'
+  degree_year: 1983
   name: Thu Van Vu
 - category: alumni
   degree_what: PhD
@@ -642,7 +644,7 @@
   url: http://www.linkedin.com/in/shunwang
 - category: alumni
   degree_what: PhD
-  degree_year: '2005'
+  degree_year: 2005
   name: Wei Wang
 - category: alumni
   degree_what: PhD
@@ -651,15 +653,15 @@
   url: http://www.tsinghua.edu.cn/publish/csen/4623/2010/20101224194841417841557/20101224194841417841557_.html
 - category: alumni
   degree_what: PhD
-  degree_year: '1982'
+  degree_year: 1982
   name: Daniel Wells
 - category: alumni
   degree_what: PhD
-  degree_year: '1975'
+  degree_year: 1975
   name: Sally Foote Wilkins
 - category: alumni
   degree_what: PhD
-  degree_year: '1981'
+  degree_year: 1981
   name: John Wisniewski
 - category: alumni
   degree_what: PhD
@@ -668,16 +670,21 @@
   url: http://www.linkedin.com/in/michaelmwolf
 - category: alumni
   degree_what: PhD
-  degree_year: '1990'
+  degree_year: 1990
   name: Gun-Chung Yang
 - category: alumni
   degree_what: PhD
   degree_year: 1995
   name: Ulrike Meier Yang
   url: http://people.llnl.gov/yang11
+- name: Dmitry Yershov
+  url: http://ares.lids.mit.edu/~yershov
+  degree_what: PhD
+  degree_year: 1995
+  category: alumni
 - category: alumni
   degree_what: PhD
-  degree_year: '2002'
+  degree_year: 2002
   name: Gang Zou
 
 # }}}
@@ -709,7 +716,7 @@
   name: William Harrod
   url: http://science.energy.gov/ascr/research/
 - category: former
-  name: ' Anil Hirani'
+  name: Anil Hirani
   url: http://www.math.uiuc.edu/~hirani/
 - category: former
   name: Thomas Kerkhoven
