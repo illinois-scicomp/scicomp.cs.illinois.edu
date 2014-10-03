@@ -4,6 +4,10 @@ body {
   color: #5a5a5a;
 }
 
+.study-faq > dd {
+  margin-bottom:3ex;
+}
+
 /* CUSTOMIZE base
 -------------------------------------------------- */
 
