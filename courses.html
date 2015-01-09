@@ -50,7 +50,7 @@ with open("courses.yml", "rt", encoding="utf-8") as inf:
 
     %if course.get("description"):
       %for d in urlify(course["description"]).split("\n\n"):
-        %if len(d.strip()): 
+        %if len(d.strip()):
           <p>${d}</p>
         %endif
       %endfor
