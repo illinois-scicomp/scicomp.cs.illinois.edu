@@ -14,7 +14,7 @@
 # {{{ faculty / emeritus
 
 - name: Paul Fischer
-  url:
+  url: http://www.mcs.anl.gov/~fischer/
   image: paul-fischer.jpeg
   category: faculty
   blurb:
