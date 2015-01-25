@@ -73,7 +73,7 @@
   image: cs554.jpeg
   frequency: Fall, odd years
   description: |
-    
+
     Credit: 4 hours.
 
     Numerical algorithms for parallel computers: parallel algorithms in numerical linear algebra (dense and sparse solvers for linear systems and the algebraic eigenvalue problem), numerical handling of ordinary and partial differential equations, and numerical optimization techniques. Same as CSE 512.  Prerequisite: One of CS 450, CS 457, CS 555.
@@ -83,20 +83,20 @@
   image: cs555.jpeg
   frequency: Spring
   description: |
-    
+
     Credit: 4 hours.
 
     Numerical techniques for initial and boundary value problems in partial differential equations. Finite difference and finite element discretization techniques, direct and iterative solution methods for discrete problems, and programming techniques and usage of software packages. Same as CSE 510.  Prerequisite: CS 450 or CS 457.
 
   editions:
 
+    - when: Spring 2015
+      who: Luke Olson
+      url: http://lukeo.cs.illinois.edu/cs555
+
     - when: Spring 2014
       who: Luke Olson
       url: https://wiki.cites.illinois.edu/wiki/display/CS555SP14/Home
-
-    - when: Spring 2013
-      who: Luke Olson
-      url: https://wiki.engr.illinois.edu/display/cs555sp13/Home
 
 - number: CS556
   title: Iterative and Multigrid Methods
@@ -104,7 +104,7 @@
   frequency: Fall, even years
 
   description: |
-    
+
     Credit: 4 hours.
 
     Comprehensive treatment of algebraic and multigrid iterative methods to solve systems of equations, primarily linear equations arising from discretization of partial differential equations.
@@ -113,8 +113,9 @@
 
   editions:
 
-    - when: Fall 2013
+    - when: Fall 2014
       who: Luke Olson
+      url: http://lukeo.cs.illinois.edu/cs556
 
 - number: CS558
   title: Topics in Numerical Analysis
