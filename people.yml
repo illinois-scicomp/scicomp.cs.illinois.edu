@@ -80,9 +80,11 @@
   category: grad
 
 - name: Amanda Bienz
+  url: http://web.engr.illinois.edu/~bienz2/
   category: grad
 
 - name: Nathan Bowman
+  url: http://web.engr.illinois.edu/~nlbowma2
   category: grad
 
 - name: Elena Caraba
@@ -110,10 +112,6 @@
 - name: Scott High
   category: grad
 
-- name: Adam Hug
-  dept: ECE
-  category: grad
-
 - name: Vivek Kale
   category: grad
 
@@ -122,9 +120,6 @@
   category: grad
 
 - name: Samah Karim
-  category: grad
-
-- name: Kyle McKiou
   category: grad
 
 - name: Huong Luu
@@ -140,6 +135,7 @@
   category: grad
 
 - name: Andrew Reisner
+  url: http://www.reisner.co
   category: grad
 
 - name: James Stevens
