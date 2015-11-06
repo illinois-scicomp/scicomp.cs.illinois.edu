@@ -14,7 +14,7 @@
 # {{{ faculty / emeritus
 
 - name: Paul Fischer
-  url: http://www.mcs.anl.gov/~fischer/
+  url: http://fischerp.cs.illinois.edu/
   image: paul-fischer.jpeg
   category: faculty
   blurb:
@@ -60,7 +60,7 @@
   url: http://www.cs.illinois.edu/~lukeo
   image: luke-olson.jpeg
   category: faculty
-  blurb: 
+  blurb:
 
     Multigrid and iterative methods for sparse linear systems,
     least-squares finite element methods,
@@ -78,6 +78,10 @@
 - name: Natalie Beams
   dept: MechSE
   url: http://web.engr.illinois.edu/~beams2/
+  category: grad
+
+- name: Pedro David Bello-Maldonado
+  url: http://web.engr.illinois.edu/~belloma2/
   category: grad
 
 - name: Amanda Bienz
@@ -362,7 +366,7 @@
   degree_what: PhD
   degree_year: 1997
   name: Jason Hibbeler
-  url: http://www.cems.uvm.edu/~jhibbele/ 
+  url: http://www.cems.uvm.edu/~jhibbele/
 - category: alumni
   degree_what: BS
   degree_year: 2002
