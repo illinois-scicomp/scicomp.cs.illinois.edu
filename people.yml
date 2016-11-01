@@ -45,7 +45,7 @@
     Numerical linear algebra and optimization,
     parallel numerical algorithms
 
-- name: Andreas KlÃ¶ckner
+- name: Andreas Klöckner
   url: http://www.cs.illinois.edu/~andreask
   category: faculty
   image: andreas-kloeckner.jpeg
@@ -101,6 +101,7 @@
   category: grad
 
 - name: Erin Carrier
+  url: http://www.erincarrier.com
   category: grad
 
 - name: Steven Dalton
