@@ -18,7 +18,7 @@ SOURCES.insert(0, ("data", "people.yml"))
 
 import yaml
 from codecs import open
-with open("people.yml", "rt", encoding="utf-8") as inf:
+with open("people.yml", "r", encoding="utf-8") as inf:
   people = yaml.load(inf)
 
 %>
