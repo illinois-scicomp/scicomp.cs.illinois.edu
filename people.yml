@@ -73,8 +73,9 @@
 
 - name: Edgar Solomonik
   url: http://solomon2.cs.illinois.edu/
-  category: faculty
   image: edgar-solomonik.jpeg
+  category: faculty
+  blurb:
 
     Communication complexity, numerical linear algebra,
     tensor computations, electronic structure calculations, 
