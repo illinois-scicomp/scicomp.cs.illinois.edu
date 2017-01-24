@@ -71,6 +71,15 @@
   category: emeritus
   image: paul-saylor.jpeg
 
+- name: Edgar Solomonik
+  url: http://solomon2.cs.illinois.edu/
+  category: faculty
+  image: edgar-solomonik.jpeg
+
+    Communication complexity, numerical linear algebra,
+    tensor computations, electronic structure calculations, 
+    parallel programming abstractions
+
 # }}}
 
 # {{{ grad
