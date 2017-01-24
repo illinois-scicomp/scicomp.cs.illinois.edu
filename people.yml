@@ -75,9 +75,10 @@
   url: http://solomon2.cs.illinois.edu/
   category: faculty
   image: edgar-solomonik.jpeg
+  blurb:
 
     Communication complexity, numerical linear algebra,
-    tensor computations, electronic structure calculations, 
+    tensor computations, electronic structure calculations,
     parallel programming abstractions
 
 # }}}
