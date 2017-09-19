@@ -29,7 +29,7 @@ os.makedirs(liveweb)
 with open("people.yml", "r", encoding="utf-8") as inf:
   people = yaml.load(inf)
 
-files = ['_index.html', '_people.html']
+files = ['_index.html', '_people.html', '_contact.html']
 
 # now render the pages
 for f in files:
