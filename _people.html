@@ -1,0 +1,109 @@
+{% extends "_layout.html" %}
+{% block title %}
+Scientific Computing @ Illinois | People
+{% endblock %}
+
+{% block content %}
+
+<div class="container main-scicomp sub-container">
+
+  <div class="row">
+  <h2>Faculty</h2>
+  </div>
+
+  <div class="row">
+  {% for p in people if p['category'] == 'faculty' or p['category'] == 'emeritus' %}
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+          <div class="card faculty-card">
+            {% if 'image' in p %}
+              <img src="images/people/scaled/{{p['image']}}" alt="{{p['name']}}" class="card-img-top rounded">
+            {% else %}
+              <img src="images/headshot.png" alt="{{p['name']}}" class="card-img-top rounded">
+            {% endif %}
+
+              <div class="card-body">
+                <h6 class="card-title">
+                {% if 'url' in p %}
+                  <a href="{{p['url']}}">{{p['name']}}<i class="fa fa-external-link" style="padding-left: 5px;"></i></a>
+                {% else %}
+                  {{p['name']}}
+                {% endif %}
+                </h6>
+
+                <p class="card-text">
+                <small>
+                  {{ p['blurb'] }}
+                </small>
+                </p>
+              </div>
+          </div>
+        </div>
+
+  {% endfor %}
+  </div>
+
+  <div class="row">
+  <h2>Grad Students</h2>
+  </div>
+
+  <div class="row">
+  {% for p in people if p['category'] == 'grad' %}
+    <div class="col-md-4 grad-list">
+      {% set name = p['name'] %}
+      {% if 'dept' in p %}
+        {% set name = name + ' (' + p['dept'] + ')' %}
+      {% endif %}
+      {% if 'url' in p %}
+        <a href="{{p['url']}}">{{name}}<i class="fa fa-external-link"></i></a>
+      {% else %}
+        {{name}}
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+
+  <div class="row">
+  <h2>Alumni</h2>
+  </div>
+
+  <div class="row">
+  {% for p in people if p['category'] == 'alumni' %}
+    <div class="col-md-4 grad-list">
+      {% set name = p['name'] %}
+      {% if 'dept' in p %}
+        {% set name = name + ' (' + p['dept'] + ')' %}
+      {% endif %}
+      {% if 'url' in p %}
+        <a href="{{p['url']}}">{{p['name']}}</a>
+      {% else %}
+        {{p['name']}}
+      {% endif %}
+      ({{p['degree_what']}} {{p['degree_year']}})
+    </div>
+  {% endfor %}
+  </div>
+
+  <div class="row">
+  <h2>Former Faculty and Postdoctoral Research Associates</h2>
+  </div>
+
+  <div class="row">
+  {% for p in people if p['category'] == 'former' %}
+    <div class="col-md-4 grad-list">
+      {% set name = p['name'] %}
+      {% if 'dept' in p %}
+        {% set name = name + ' (' + p['dept'] + ')' %}
+      {% endif %}
+      {% if 'url' in p %}
+        <a href="{{p['url']}}">{{p['name']}}</a>
+      {% else %}
+        {{p['name']}}
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+
+</div>
+
+{% endblock %}

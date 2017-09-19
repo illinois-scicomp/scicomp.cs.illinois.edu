@@ -14,8 +14,8 @@ for f in ./live/images/people/*jpeg; do
   fi
 done
 
-rm -f live/*.html
+#rm -f live/*.html
 
-for i in *.html ; do
-  python3 render.py $i live/$i
-done
+#for i in *.html ; do
+#  python3 render.py $i live/$i
+#done

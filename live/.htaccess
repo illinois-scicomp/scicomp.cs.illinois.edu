@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www.)?sci-comp.cs.illinois.edu$
-RewriteRule ^(.*)$ http://scicomp.cs.illinois.edu/$1?utm_source=xdomain&utm_medium=typed&utm_campaign=poster [R]
