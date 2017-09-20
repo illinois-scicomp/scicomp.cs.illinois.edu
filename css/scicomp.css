@@ -1,3 +1,7 @@
+html {
+  font-size: 14px;
+}
+
 body {
   background: url('../images/siebel-building.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -47,4 +51,9 @@ body {
 .faculty-card {
   padding: 25px;
   border: 0px;
+}
+
+.row-course {
+  margin-top: 25px;
+  padding-top: 25px;
 }

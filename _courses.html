@@ -1,0 +1,35 @@
+{% extends "_layout.html" %}
+{% block title %}
+Scientific Computing @ Illinois | People
+{% endblock %}
+
+{% block content %}
+
+<div class="container main-scicomp sub-container">
+
+  <h1 class="course-header">Our Courses</h1>
+
+  {% for course in courses %}
+
+    <div class="row row-course">
+      <div class="col-sm-2">
+        <img src="images/{{course['image']}}" alt="{{course['number']}}" class="img-fluid rounded"/>
+      </div>
+
+      <div class="col-sm-10">
+
+        <h2>{{course["number"]}} &middot; {{course["title"]}}</h2>
+
+        <p>Offered {{course["frequency"]}}.</p>
+
+      {% for d in course["description"] %}
+        <p>{{d}}</p>
+      {% endfor %}
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div>
+
+{% endblock %}
