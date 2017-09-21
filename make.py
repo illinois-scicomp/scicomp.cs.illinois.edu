@@ -50,9 +50,7 @@ with open("courses.yml", "r", encoding="utf-8") as inf:
   for course in courses:
       course['description'] = [urlify(d) for d in course['description'].split('\n\n')]
 
-print(courses[0])
-
-files = ['_index.html', '_people.html', '_contact.html', '_courses.html']
+files = ['_index.html', '_people.html', '_contact.html', '_courses.html', '_study.html']
 
 # now render the pages
 for f in files:
