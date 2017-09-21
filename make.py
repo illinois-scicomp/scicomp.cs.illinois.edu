@@ -41,10 +41,10 @@ def urlify(somestring):
     """
     return urlpattern.sub(newurl%('\g<1>','\g<2>','\g<1>','\g<2>'), somestring)
 
-with open("people.yml", "r", encoding="utf-8") as inf:
+with open("./data/people.yml", "r", encoding="utf-8") as inf:
   people = yaml.load(inf)
 
-with open("courses.yml", "r", encoding="utf-8") as inf:
+with open("./data/courses.yml", "r", encoding="utf-8") as inf:
   courses = yaml.load(inf)
   courses = [course for course in courses if course['number'] is not None]
   for course in courses:
