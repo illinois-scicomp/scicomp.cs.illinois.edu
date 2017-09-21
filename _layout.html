@@ -1,3 +1,12 @@
+{% set navbar = [
+    ('index.html'    , 'Home'),
+    ('study.html'    , 'PhD Program'),
+    ('people.html'   , 'People'),
+    ('courses.html'  , 'Courses'),
+    ('contact.html' , 'Contact')
+] -%}
+{% set active_page = active_page|default('Home') -%}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -30,11 +39,10 @@
 
       <div class="collapse navbar-collapse" id="navbarDefault">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-          <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
-          <li class="nav-item"><a class="nav-link" href="study.html">PhD Program</a></li>
-          <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          {% for href, id in navbar %}
+          <li class="nav-item">
+          <a {% if id == active_page %}class="nav-link active font-weight-bold"{% else %}class="nav-link"{% endif %} href="{{ href|e }}"><span style="color: rgba(255, 255, 255, 1.0);">{{ id|e }}</span> {% if id == active_page %}<span class="sr-only">(current)</span>{% endif %}</a>
+          {% endfor %}
         </ul>
       </div>
     </nav>
