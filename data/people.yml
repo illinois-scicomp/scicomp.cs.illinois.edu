@@ -85,11 +85,6 @@
 
 # {{{ grad
 
-- name: Natalie Beams
-  dept: MechSE
-  url: http://web.engr.illinois.edu/~beams2/
-  category: grad
-
 - name: Pedro David Bello-Maldonado
   url: http://web.engr.illinois.edu/~belloma2/
   category: grad
@@ -102,20 +97,8 @@
   url: http://web.engr.illinois.edu/~nlbowma2
   category: grad
 
-- name: Elena Caraba
-  url: http://www.cs.illinois.edu/homes/caraba1/
-  category: grad
-
-- name: Jon Calhoun
-  url: http://ews.illinois.edu/~jccalho2/
-  category: grad
-
 - name: Erin Carrier
   url: http://www.erincarrier.com
-  category: grad
-
-- name: Steven Dalton
-  url: http://ews.illinois.edu/~dalton6/
   category: grad
 
 - name: Paul Eller
@@ -128,20 +111,14 @@
 - name: Scott High
   category: grad
 
-- name: Vivek Kale
+- name: Ed Hutter
   category: grad
-
-- name: Kaushik Kalyanaraman
-  url: http://web.engr.illinois.edu/~kalyana1/
-  category: grad
+  url: https://www.linkedin.com/in/edward-hutter-45320272/
 
 - name: Samah Karim
   category: grad
 
 - name: Huong Luu
-  category: grad
-
-- name: Matthew Michelotti
   category: grad
 
 - name: Erin Molloy
@@ -197,9 +174,14 @@
   url: http://www.pnnl.gov/about/bio/StevenAshby.asp
 - category: alumni
   degree_what: PhD
+  degree_year: 2017
   degree_year: 1990
   name: Sohail Aslam
   url: http://www.linkedin.com/pub/sohail-aslam/3/b82/904
+- name: Natalie Beams
+  dept: MechSE
+  url: http://web.engr.illinois.edu/~beams2/
+  category: alumni
 - category: alumni
   degree_what: PhD
   degree_year: 2008
@@ -232,6 +214,16 @@
   degree_what: PhD
   degree_year: 1975
   name: Roy L. Brown Jr.
+- name: Jon Calhoun
+  url: http://ews.illinois.edu/~jccalho2/
+  degree_what: PhD
+  degree_year: 2017
+  category: alumni
+- name: Elena Caraba
+  degree_what: PhD
+  degree_year: 2015
+  url: http://www.cs.illinois.edu/homes/caraba1/
+  category: alumni
 - category: alumni
   degree_what: MCS
   degree_year: 2003
@@ -273,6 +265,11 @@
   degree_year: 2008
   name: Eric Cyr
   url: http://www.sandia.gov/~eccyr/
+- name: Steven Dalton
+  url: http://ews.illinois.edu/~dalton6/
+  degree_what: PhD
+  degree_year: 2014
+  category: alumni
 - category: alumni
   degree_what: PhD
   degree_year: 1989
@@ -412,10 +409,19 @@
   degree_what: PhD
   degree_year: 1990
   name: Fen Lien Juang
+- name: Vivek Kale
+  category: alumni
+  degree_what: PhD
+  degree_year: 2015
 - category: alumni
   degree_what: PhD
   degree_year: 1984
   name: Emmanuel Kamgnia
+- name: Kaushik Kalyanaraman
+  url: http://web.engr.illinois.edu/~kalyana1/
+  degree_what: PhD
+  degree_year: 2015
+  category: alumni
 - category: alumni
   degree_what: PhD
   degree_year: 1986
@@ -497,6 +503,10 @@
   degree_what: BS
   degree_year: 2012
   name: Kyle McKiou
+- name: Matthew Michelotti
+  degree_what: MS
+  degree_year: 2012
+  category: alumni
 - category: alumni
   degree_what: PhD
   degree_year: 1988
