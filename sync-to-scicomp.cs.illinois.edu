@@ -1,3 +1,3 @@
 #!/bin/sh
 #rsync -ravz --list-only -e ssh --delete ./live sci-comp@web.engr.illinois.edu:~/public_html/new/.
-rsync -ravz -e ssh --delete ./live/ sci-comp@webhost.engr.illinois.edu:~/public_html/.
+rsync -ravz -e ssh --delete ./live/ sci-comp@web.engr.illinois.edu:~/public_html/.
