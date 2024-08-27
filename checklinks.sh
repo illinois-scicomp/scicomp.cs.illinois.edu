@@ -7,5 +7,5 @@ set -x
 for f in *.html ; do
   echo "____________________________________"
   echo " checking " $f
-  pylinkcheck.py -P $f
+  lychee -t 2 $f
 done

@@ -1,0 +1,5 @@
+#!/bin/sh
+# http://andreafrancia.it/2010/03/understanding-the-output-of-rsync-itemize-changes.html
+# http://serverfault.com/questions/618735/can-i-use-rsync-to-create-a-list-of-only-changed-files
+rsync -naic ./live/ sci-comp@web.illinois.edu:~/public_html/.
+cat ./sync-list-changes-readme.md

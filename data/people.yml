@@ -14,7 +14,7 @@
 # {{{ faculty / emeritus
 
 - name: Paul Fischer
-  url: http://fischerp.cs.illinois.edu/
+  url: https://fischerp.cs.illinois.edu/
   image: paul-fischer.jpeg
   category: faculty
   blurb:
@@ -26,7 +26,7 @@
     iterative methods
 
 - name: William Gropp
-  url: http://www.cs.illinois.edu/~wgropp
+  url: https://wgropp.cs.illinois.edu
   image: bill-gropp.jpeg
   category: faculty
   blurb:
@@ -37,7 +37,7 @@
     multilevel methods for numerical PDEs
 
 - name: Michael Heath
-  url: http://www.cs.uiuc.edu/~heath/
+  url: https://heath.cs.illinois.edu
   image: mike-heath.jpeg
   category: emeritus
   blurb:
@@ -46,7 +46,7 @@
     parallel numerical algorithms
 
 - name: Andreas Kl&#246;ckner
-  url: http://www.cs.illinois.edu/~andreask
+  url: https://andreask.cs.illinois.edu
   category: faculty
   image: andreas-kloeckner.jpeg
   blurb:
@@ -57,7 +57,7 @@
     time integration
 
 - name: Luke Olson
-  url: http://www.cs.illinois.edu/~lukeo
+  url: https://lukeo.cs.illinois.edu
   image: luke-olson.jpeg
   category: faculty
   blurb:
@@ -72,7 +72,7 @@
   category: faculty
 
 - name: Edgar Solomonik
-  url: http://solomon2.cs.illinois.edu/
+  url: https://solomon2.cs.illinois.edu/
   image: edgar-solomonik.jpeg
   category: faculty
   blurb:
@@ -86,23 +86,22 @@
 # {{{ grad
 
 - name: Pedro David Bello-Maldonado
-  url: http://web.engr.illinois.edu/~belloma2/
+  url: https://www.linkedin.com/in/metalcycling
   category: grad
 
 - name: Amanda Bienz
-  url: http://web.engr.illinois.edu/~bienz2/
+  url: https://www.cs.unm.edu/directory/faculty-profiles/amanda-bienz.html
   category: grad
 
 - name: Nathan Bowman
-  url: http://web.engr.illinois.edu/~nlbowma2
+  url: https://www.linkedin.com/in/nathan-bowman-b3811026
   category: grad
 
 - name: Erin Carrier
-  url: http://www.erincarrier.com
+  url: https://eecarrier.github.io
   category: grad
 
 - name: Paul Eller
-  url: http://web.engr.illinois.edu/~eller3/index.html
   category: grad
 
 - name: Eslami Hassan
@@ -123,14 +122,13 @@
 
 - name: Erin Molloy
   category: grad
-  url: http://emolloy2.web.engr.illinois.edu/
+  url: https://www.cs.umd.edu/people/ekmolloy
 
 - name: Tarun Prabhu
   category: grad
-  url: http://web.engr.illinois.edu/~tprabhu2/index.html
+  url: https://www.linkedin.com/in/tarunprabhu
 
 - name: Andrew Reisner
-  url: http://www.reisner.co
   category: grad
 
 - name: James Stevens
@@ -150,12 +148,12 @@
   degree_what: PhD
   degree_year: 2007
   name: David Alber
-  url: http://www.davidalber.net/
+  url: https://www.davidalber.net/
 - category: alumni
   degree_what: MS
   degree_year: 2005
   name: Phillip Alexander
-  url: http://www.volition-inc.com/staff/phil-alexander/
+  url: https://www.linkedin.com/in/phillip-alexander-6722b74
 - category: alumni
   degree_what: MS
   degree_year: 2005
@@ -164,7 +162,6 @@
   degree_what: MS
   degree_year: 1988
   name: Edward Anderson
-  url: http://www.cs.utk.edu/~eanderso/
 - category: alumni
   degree_what: PhD
   degree_year: 2012
@@ -173,27 +170,26 @@
   degree_what: PhD
   degree_year: 1988
   name: Steven Ashby
-  url: http://www.pnnl.gov/about/bio/StevenAshby.asp
+  url: https://www.pnnl.gov/about/bio/StevenAshby.asp
 - category: alumni
   degree_what: PhD
   degree_year: 2017
   degree_year: 1990
   name: Sohail Aslam
-  url: http://www.linkedin.com/pub/sohail-aslam/3/b82/904
+  url: https://www.linkedin.com/pub/sohail-aslam/3/b82/904
 - name: Natalie Beams
   dept: MechSE
-  url: http://web.engr.illinois.edu/~beams2/
+  url: https://www.eecs.utk.edu/people/natalie-beams
   category: alumni
 - category: alumni
   degree_what: PhD
   degree_year: 2008
   name: Nathan Bell
-  url: http://wnbell.com/
 - category: alumni
   degree_what: PhD
   degree_year: 1991
   name: Michael Berry
-  url: http://web.eecs.utk.edu/~berry/
+  url: https://www.eecs.utk.edu/people/michael-berry
 - category: alumni
   degree_what: MS
   degree_year: 1995
@@ -202,7 +198,7 @@
   degree_what: PhD
   degree_year: 1999
   name: James Bordner
-  url: http://casswww.ucsd.edu/index.php/faculty:Jobordner
+  url: https://casswww.ucsd.edu/index.php/faculty:Jobordner
 - category: alumni
   degree_what: PhD
   degree_year: 1971
@@ -211,20 +207,19 @@
   degree_what: PhD
   degree_year: 1989
   name: Randall Bramley
-  url: http://www.soic.indiana.edu/people/profiles/bramley-randall.shtml
+  url: https://luddy.indiana.edu/contact/profile/index.html?Randall_Bramley
 - category: alumni
   degree_what: PhD
   degree_year: 1975
   name: Roy L. Brown Jr.
 - name: Jon Calhoun
-  url: http://ews.illinois.edu/~jccalho2/
+  url: https://ews.illinois.edu/~jccalho2/
   degree_what: PhD
   degree_year: 2017
   category: alumni
 - name: Elena Caraba
   degree_what: PhD
   degree_year: 2015
-  url: http://www.cs.illinois.edu/homes/caraba1/
   category: alumni
 - category: alumni
   degree_what: MCS
@@ -234,7 +229,6 @@
   degree_what: PhD
   degree_year: 1988
   name: Hsin-Chu Chen
-  url: http://www.cis.cau.edu/~hchen/
 - category: alumni
   degree_what: MS
   degree_year: 2005
@@ -247,7 +241,7 @@
   degree_what: PhD
   degree_year: 1987
   name: Anthony Chronopoulos
-  url: http://www.cs.utsa.edu/faculty/atc/
+  url: https://www.cs.utsa.edu/faculty/atc/
 - category: alumni
   degree_what: PhD
   degree_year: 1975
@@ -256,19 +250,19 @@
   degree_what: PhD
   degree_year: 2008
   name: Andrew Colombi
-  url: http://www.linkedin.com/pub/andrew-colombi/5/2aa/9a5
+  url: https://www.linkedin.com/pub/andrew-colombi/5/2aa/9a5
 - category: alumni
   degree_what: PhD
   degree_year: 2009
   name: William Cochran
-  url: http://www.linkedin.com/pub/bill-cochran/11/4ba/b3
+  url: https://www.linkedin.com/pub/bill-cochran/11/4ba/b3
 - category: alumni
   degree_what: PhD
   degree_year: 2008
   name: Eric Cyr
-  url: http://www.sandia.gov/~eccyr/
+  url: https://www.sandia.gov/ccr/staff/eric-christopher-cyr/
 - name: Steven Dalton
-  url: http://ews.illinois.edu/~dalton6/
+  url: https://ews.illinois.edu/~dalton6/
   degree_what: PhD
   degree_year: 2014
   category: alumni
@@ -276,7 +270,7 @@
   degree_what: PhD
   degree_year: 1989
   name: Tim Davis
-  url: http://www.cise.ufl.edu/~davis/
+  url: https://people.engr.tamu.edu/davis/welcome.html
 - category: alumni
   degree_what: PhD
   degree_year: 1972
@@ -293,14 +287,14 @@
   degree_what: BS
   degree_year: 2003
   name: Hormozd Gahvari
-  url: http://www.cs.illinois.edu/homes/gahvari/
+  url: https://www.llnl.gov/community-education/employee-retirement-resources/in-memoriam/hormozd-gahvari
 - category: alumni
   degree_what: PhD
   degree_year: 1993
   name: Albert Galick
-  url: http://www.linkedin.com/pub/albert-galick/3/b11/884
+  url: https://www.linkedin.com/pub/albert-galick/3/b11/884
 - name: Hormozd Gahvari
-  url: http://www.cs.illinois.edu/homes/gahvari/
+  url: https://www.llnl.gov/community-education/employee-retirement-resources/in-memoriam/hormozd-gahvari
   category: alumni
   degree_what: PhD
   degree_year: 2014
@@ -308,27 +302,27 @@
   degree_what: PhD
   degree_year: 1983
   name: Kyle Gallivan
-  url: http://www.math.fsu.edu/~gallivan/
+  url: https://www.math.fsu.edu/~gallivan/
 - category: alumni
   degree_what: PhD
   degree_year: 1985
   name: Efstratios Gallopoulos
-  url: http://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
+  url: https://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
 - category: alumni
   degree_what: PhD
   degree_year: 1980
   name: Dennis Gannon
-  url: http://research.microsoft.com/en-us/people/degannon/
+  url: https://research.microsoft.com/en-us/people/degannon/
 - category: alumni
   degree_what: PhD
   degree_year: 2011
   name: Mark Gates
-  url: http://web.eecs.utk.edu/~mgates3/
+  url: https://www.eecs.utk.edu/people/mark-gates/
 - category: alumni
   degree_what: PhD
   degree_year: 1960
   name: C. William Gear
-  url: http://www.princeton.edu/~wgear/
+  url: https://www.princeton.edu/~wgear/
 - category: alumni
   degree_what: MS
   degree_year: 1994
@@ -337,32 +331,31 @@
   degree_what: PhD
   degree_year: 1959
   name: Gene Golub
-  url: http://en.wikipedia.org/wiki/Gene_H._Golub
+  url: https://en.wikipedia.org/wiki/Gene_H._Golub
 - category: alumni
   degree_what: PhD
   degree_year: 1981
   name: Joseph Grcar
-  url: http://www.americanscientist.org/authors/detail/joseph-grcar
 - category: alumni
   degree_what: PhD
   degree_year: 1955
   name: Robert T. Gregory
-  url: http://www.utexas.edu/faculty/council/2001-2002/memorials/Gregory/gregory.html
+  url: https://www.utexas.edu/faculty/council/2001-2002/memorials/Gregory/gregory.html
 - category: alumni
   degree_what: PhD
   degree_year: 2011
   name: Jehanzeb Hameed Chaudhry
-  url: http://www.math.colostate.edu/~hameed/
+  url: https://www.math.colostate.edu/~hameed/
 - category: alumni
   degree_what: PhD
   degree_year: 2005
   name: David Hardy
-  url: http://www.ks.uiuc.edu/~dhardy/
+  url: https://www.ks.illinois.edu/~dhardy
 - category: alumni
   degree_what: PhD
   degree_year: 2005
   name: Rebecca Hartman-Baker
-  url: http://www.ivec.org/node/535
+  url: https://profiles.lbl.gov/22497-rebecca-hartmanbaker
 - category: alumni
   degree_what: BS
   degree_year: 2012
@@ -371,34 +364,32 @@
   degree_what: PhD
   degree_year: 2011
   name: Russell Hewett
-  url: http://math.mit.edu/people/profile.php?pid=1365
+  url: https://www.rjh.io
 - category: alumni
   degree_what: PhD
   degree_year: 1997
   name: Jason Hibbeler
-  url: http://www.cems.uvm.edu/~jhibbele/
+  url: https://www.uvm.edu/cems/cs/profiles/jason-hibbeler
 - category: alumni
   degree_what: BS
   degree_year: 2002
   name: Mark Hoemmen
-  url: http://www.eecs.berkeley.edu/~mhoemmen/
+  url: https://www.eecs.berkeley.edu/~mhoemmen/
 - category: alumni
   degree_what: PhD
   degree_year: 1993
   name: Michael Holst
-  url: http://www.scicomp.ucsd.edu/~mholst/
+  url: https://ccom.ucsd.edu/~mholst/
 - category: alumni
   degree_what: PhD
   degree_year: 1997
   name: Paul Hovland
-  url: http://www-unix.mcs.anl.gov/~hovland/
+  url: https://www.anl.gov/profile/paul-hovland
 - category: alumni
   degree_what: PhD
   degree_year: 2000
   name: Jesus Izaguirre
-  url: http://engineering.nd.edu/profiles/jizaguirre
 - name: Peng Jiang
-  url: http://www.cs.illinois.edu/homes/pjiang2/
   category: alumni
   degree_what: PhD
   degree_year: 2013
@@ -406,7 +397,7 @@
   degree_what: PhD
   degree_year: 2001
   name: Xiangmin Jiao
-  url: http://www.ams.sunysb.edu/~jiao/
+  url: https://www.ams.sunysb.edu/~jiao/
 - category: alumni
   degree_what: PhD
   degree_year: 1990
@@ -420,7 +411,7 @@
   degree_year: 1984
   name: Emmanuel Kamgnia
 - name: Kaushik Kalyanaraman
-  url: http://web.engr.illinois.edu/~kalyana1/
+  url: https://www.iiitd.ac.in/kaushik
   degree_what: PhD
   degree_year: 2015
   category: alumni
@@ -432,7 +423,7 @@
   degree_what: PhD
   degree_year: 1989
   name: Jerry Keiper
-  url: http://www.stephenwolfram.com/publications/other-pubs/95-keiper.html
+  url: https://www.stephenwolfram.com/publications/jerry-keiper/
 - category: alumni
   degree_what: PhD
   degree_year: 1973
@@ -465,12 +456,12 @@
   degree_what: PhD
   degree_year: 1993
   name: Steven Lee
-  url: http://www.linkedin.com/in/stevenleedoe
+  url: https://www.linkedin.com/in/stevenleedoe
 - category: alumni
   degree_what: PhD
   degree_year: 1988
   name: Ben Leimkuhler
-  url: http://www.maths.ed.ac.uk/people/show?person=10
+  url: https://www.maths.ed.ac.uk/~bleimkuh
 - category: alumni
   degree_what: PhD
   degree_year: 1972
@@ -495,12 +486,12 @@
   degree_what: PhD
   degree_year: 1975
   name: Tom Manteuffel
-  url: http://grandmaster.colorado.edu/~tmanteuf/
+  url: https://grandmaster.colorado.edu/~tmanteuf/
 - category: alumni
   degree_what: PhD
   degree_year: 1997
   name: Bret Marsolf
-  url: http://www.linkedin.com/pub/bret-marsolf/16/8a7/760
+  url: https://www.linkedin.com/in/bret-marsolf-7608a716
 - category: alumni
   degree_what: BS
   degree_year: 2012
@@ -513,42 +504,41 @@
   degree_what: PhD
   degree_year: 1988
   name: William Mitchell
-  url: http://math.nist.gov/~WMitchell/
+  url: https://math.nist.gov/~WMitchell/
 - category: alumni
   degree_what: PhD
   degree_year: 1996
   name: Henry Neeman
-  url: http://hneeman.oscer.ou.edu/
+  url: https://hneeman.oscer.ou.edu/
 - category: alumni
   degree_what: PhD
   degree_year: 2007
   name: Hanna Neradt
-  url: http://www.theneradts.com/
 - category: alumni
   degree_what: PhD
   degree_year: 2000
   name: Boyana Norris
-  url: http://www.mcs.anl.gov/~norris/
+  url: https://www.mcs.anl.gov/~norris/
 - category: alumni
   degree_what: PhD
   degree_year: 1993
   name: Daniel Okunbor
-  url: http://faculty.uncfsu.edu/diokunbor/
+  url: https://faculty.uncfsu.edu/diokunbor/
 - category: alumni
   degree_what: PhD
   degree_year: 2004
   name: Michael Parks
-  url: http://www.sandia.gov/~mlparks/
+  url: https://www.sandia.gov/~mlparks/
 - category: alumni
   degree_what: PhD
   degree_year: 1978
   name: Linda Petzold
-  url: http://www.cse.ucsb.edu/people/Petzold.html
+  url: https://engineering.ucsb.edu/people/linda-petzold
 - category: alumni
   degree_what: PhD
   degree_year: 2001
   name: Ali Pinar
-  url: http://csmr.ca.sandia.gov/~apinar/
+  url: https://www.sandia.gov/-apinar/staff/ali-pinar
 - category: alumni
   degree_what: PhD
   degree_year: 2011
@@ -569,7 +559,7 @@
   degree_what: PhD
   degree_year: 1997
   name: Vivek Sarin
-  url: http://faculty.cs.tamu.edu/sarin/
+  url: https://faculty.cs.tamu.edu/sarin/
 - category: alumni
   degree_what: PhD
   degree_year: 1987
@@ -578,22 +568,21 @@
   degree_what: BS
   degree_year: 2005
   name: Jessica Schoen
-  url: https://iscr.llnl.gov/guests/students/bio/fy05/schoen_jessica.html
 - category: alumni
   degree_what: PhD
   degree_year: 2010
   name: Jacob Schroder
-  url: http://people.llnl.gov/schroder2
+  url: https://people.llnl.gov/schroder2
 - category: alumni
   degree_what: PhD
   degree_year: 1988
   name: Jeffrey Scroggs
-  url: http://www4.ncsu.edu/~scroggs/mywebsite/
+  url: https://math.sciences.ncsu.edu/people/scroggs/
 - category: alumni
   degree_what: PhD
   degree_year: 1992
   name: Dave Semeraro
-  url: http://www.ncsa.illinois.edu/~semeraro/
+  url: https://tacc.utexas.edu/about/staff-directory/dave-semeraro
 - category: alumni
   degree_what: PhD
   degree_year: 1983
@@ -602,12 +591,12 @@
   degree_what: PhD
   degree_year: 2006
   name: Christopher Siefert
-  url: http://www.sandia.gov/~csiefer/
+  url: https://www.sandia.gov/-csiefer/staff/chris-siefert
 - category: alumni
   degree_what: BS
   degree_year: 1998
   name: Tamar Shinar
-  url: http://www.cs.ucr.edu/~shinar/
+  url: https://www.cs.ucr.edu/~shinar/
 - category: alumni
   degree_what: PhD
   degree_year: 1984
@@ -616,27 +605,26 @@
   degree_what: PhD
   degree_year: 1982
   name: Dennis Smolarski
-  url: http://math.scu.edu/~dsmolars/homepage.html
+  url: https://www.scu.edu/cas/mathcs/faculty-and-staff/dennis-smolarski/
 - category: alumni
   degree_what: PhD
   degree_year: 1980
   name: Bert Speelpenning
-  url: http://www.speelpenning.com/bert.htm
 - category: alumni
   degree_what: MS
   degree_year: 2002
   name: Gary Spieler
-  url: http://spieler.freeshell.org/
+  url: https://www.linkedin.com/in/gary-spieler
 - category: alumni
   degree_what: PhD
   degree_year: 1996
   name: Michael Stewart
-  url: http://www.mathstat.gsu.edu/Michael_Stewart.html
+  url: https://www.mathstat.gsu.edu/Michael_Stewart.html
 - category: alumni
   degree_what: MS
   degree_year: 2001
   name: Ryan Szypowski
-  url: http://www.csupomona.edu/~math/tenurefaculty.html
+  url: https://www.cpp.edu/sci/mathematics-statistics/faculty-and-staff/full-time.shtml
 - category: alumni
   degree_what: PhD
   degree_year: 1989
@@ -653,7 +641,7 @@
   degree_what: PhD
   degree_year: 2009
   name: Evan VanderZee
-  url: http://www.linkedin.com/pub/evan-vanderzee/4/512/63
+  url: https://www.linkedin.com/pub/evan-vanderzee/4/512/63
 - category: alumni
   degree_what: PhD
   degree_year: 1980
@@ -670,7 +658,7 @@
   degree_what: PhD
   degree_year: 2007
   name: Shun Wang
-  url: http://www.linkedin.com/in/shunwang
+  url: https://www.linkedin.com/in/shunwang
 - category: alumni
   degree_what: PhD
   degree_year: 2005
@@ -679,7 +667,7 @@
   degree_what: PhD
   degree_year: 1994
   name: Xiaoge Wang
-  url: http://www.tsinghua.edu.cn/publish/csen/4623/2010/20101224194841417841557/20101224194841417841557_.html
+  url: https://icer.msu.edu/research/Academic-Research-Consulting-Services/Xiaoge-Wang
 - category: alumni
   degree_what: PhD
   degree_year: 1982
@@ -696,7 +684,7 @@
   degree_what: PhD
   degree_year: 2009
   name: Michael Wolf
-  url: http://www.linkedin.com/in/michaelmwolf
+  url: https://www.linkedin.com/in/michaelmwolf
 - category: alumni
   degree_what: PhD
   degree_year: 1990
@@ -705,9 +693,9 @@
   degree_what: PhD
   degree_year: 1995
   name: Ulrike Meier Yang
-  url: http://people.llnl.gov/yang11
+  url: https://people.llnl.gov/yang11
 - name: Dmitry Yershov
-  url: http://ares.lids.mit.edu/~yershov
+  url: https://www.linkedin.com/in/dmitryyershov/
   degree_what: PhD
   degree_year: 2013
   category: alumni
@@ -722,68 +710,67 @@
 
 - category: former
   name: Stephen Bond
-  url: http://www.sandia.gov/~sdbond/
+  url: https://www.sandia.gov/-sdbond/staff/stephen-d-bond
 - category: former
   name: George Cybenko
-  url: http://www.dartmouth.edu/~gvc/
+  url: https://engineering.dartmouth.edu/community/faculty/george-cybenko
 - category: former
   name: Eric de Sturler
-  url: http://www.math.vt.edu/people/sturler/
+  url: https://math.vt.edu/people/faculty/desturler-eric.html
 - category: former
   name: Victor Eijkhout
-  url: http://tacc-web.austin.utexas.edu/staff/home/veijkhout/public_html/
+  url: https://tacc.utexas.edu/about/staff-directory/victor-eijkhout/
 - category: former
   name: Kyle Gallivan
-  url: http://www.math.fsu.edu/~gallivan/
+  url: https://www.math.fsu.edu/~gallivan/
 - category: former
   name: Efstratios Gallopoulos
-  url: http://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
+  url: https://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
 - category: former
   name: C. William Gear
-  url: http://www.princeton.edu/~wgear/
+  url: https://www.princeton.edu/~wgear/
 - category: former
   name: William Harrod
-  url: http://science.energy.gov/ascr/research/
 - category: former
   name: Anil Hirani
-  url: http://www.math.uiuc.edu/~hirani/
+  url: https://math.illinois.edu/directory/profile/hirani
 - category: former
   name: Thomas Kerkhoven
 - category: former
   name: Joerg Liesen
-  url: http://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/mitarbeiter/prof_dr_joerg_liesen/home/
+  url: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/mitarbeiter/prof_dr_joerg_liesen/home/
 - category: former
   name: Padma Raghavan
-  url: http://www.cse.psu.edu/~raghavan/
+  url: https://en.wikipedia.org/wiki/Padma_Raghavan
 - category: former
   name: Yousef Saad
-  url: http://www-users.cs.umn.edu/~saad/
+  url: https://en.wikipedia.org/wiki/Yousef_Saad
 - category: former
   name: Faisal Saied
-  url: http://web.ics.purdue.edu/~fsaied/
+  url: https://www.linkedin.com/in/faisal-saied-397a711a
 - category: former
   name: Ahmed Sameh
-  url: http://www.cs.purdue.edu/people/faculty/sameh/
+  url: https://www.cs.purdue.edu/people/faculty/sameh/
 - name: Paul Saylor
-  url: http://www.cs.illinois.edu/homes/saylor/
+  url: https://siebelschool.illinois.edu/news/professor-emeritus-paul-saylor-dies-81
   category: former
 - category: former
   name: Andrew Sherman
 - category: former
   name: Valeria Simoncini
-  url: http://www.imati.cnr.it/~val/
+  url: https://en.wikipedia.org/wiki/Valeria_Simoncini
 - category: former
   name: Robert Skeel
-  url: http://www.cs.purdue.edu/people/faculty/skeel/
+  url: https://siebelschool.illinois.edu/news/a-time-of-giants-remembering-robert-bob-skeel-and-the-impactful-numerical-analysis-group
 - category: former
   name: Abraham Taub
-  url: http://www.siam.org/news/news.php?id=570
+  url: https://en.wikipedia.org/wiki/Abraham_H._Taub
 - category: former
   name: Shang-Hua Teng
-  url: http://www-bcf.usc.edu/~shanghua/
+  url: https://viterbi-web.usc.edu/~shanghua/
 - category: former
   name: Paul Van Dooren
-  url: http://perso.uclouvain.be/paul.vandooren/
+  url: https://perso.uclouvain.be/paul.vandooren/
 - category: former
   name: Daniel S. Watanabe
 
