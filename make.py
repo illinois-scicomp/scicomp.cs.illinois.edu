@@ -5,6 +5,8 @@ import os
 import time
 import yaml
 import shutil
+import re
+import datetime
 from codecs import open
 from jinja2 import Environment, FileSystemLoader
 
@@ -26,26 +28,22 @@ if os.path.exists(liveweb):
 
 os.makedirs(liveweb)
 
-import re
-import datetime
 urlpattern = re.compile(r'\b(CS|CSE|MATH|ECE)\s*(\d+)')
 year = datetime.datetime.now().year
 
-#newurl = ('<a href="https://courses.illinois.edu/'
-#  'cisapp/dispatcher/catalog/{year}/fall/%s/%s">%s%s</a>'.format(year=year))
-newurl = ('<a href="https://courses.illinois.edu/schedule/terms/%s/%s">%s%s</a>')
 
 def urlify(somestring):
     """
     Takes CS357 and turns it into the URL in newurl
     """
-    return urlpattern.sub(newurl%('\g<1>','\g<2>','\g<1>','\g<2>'), somestring)
+    newurl = ('<a href="https://courses.illinois.edu/schedule/terms/%s/%s">%s%s</a>')
+    return urlpattern.sub(newurl%(r'\g<1>',r'\g<2>',r'\g<1>',r'\g<2>'), somestring)
 
 with open("./data/people.yml", "r", encoding="utf-8") as inf:
-  people = yaml.load(inf)
+  people = yaml.load(inf, Loader=yaml.FullLoader)
 
 with open("./data/courses.yml", "r", encoding="utf-8") as inf:
-  courses = yaml.load(inf)
+  courses = yaml.load(inf, Loader=yaml.FullLoader)
   courses = [course for course in courses if course['number'] is not None]
   for course in courses:
       course['description'] = [urlify(d) for d in course['description'].split('\n\n')]
@@ -64,7 +62,7 @@ for f in files:
         fout.write(html)
 
 # copy these directories as-is to the webdir
-livedirs = ['font-awesome', 'bootstrap', 'css', 'images']
+livedirs = ['css', 'images']
 for d in livedirs:
     if os.path.isdir(d):
         shutil.copytree(d, os.path.join(liveweb, d))
