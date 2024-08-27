@@ -8,6 +8,9 @@ import shutil
 import re
 import datetime
 from codecs import open
+import unicodedata
+import requests
+from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 
 jinja_env = Environment(
@@ -31,6 +34,24 @@ os.makedirs(liveweb)
 urlpattern = re.compile(r'\b(CS|CSE|MATH|ECE)\s*(\d+)')
 year = datetime.datetime.now().year
 
+def get_course_description(courses):
+    res = requests.get('http://catalog.illinois.edu/courses-of-instruction/cs/')
+    soup = BeautifulSoup(res.text, 'html.parser')
+    cbs = soup.find_all("div", {"class": "courseblock"})
+    for cb in cbs:
+        title = cb.find("p", {"class": "courseblocktitle"})
+        desc = cb.find("p", {"class": "courseblockdesc"})
+        title = unicodedata.normalize("NFKD", title.text)
+        desc = unicodedata.normalize("NFKD", desc.text)
+        for course in courses:
+            if course['number'] in title.replace(' ', ''):
+                credit = title.split('credit:')[1]
+                credit = 'Credit: ' + credit
+                if 'description' not in course:
+                    course['description'] = ''
+                course['description'] = credit + '\n' + course['description']
+                course['description'] += "\n<b>From the course catalog:</b>\n"
+                course['description'] += desc
 
 def urlify(somestring):
     """
@@ -40,13 +61,16 @@ def urlify(somestring):
     return urlpattern.sub(newurl%(r'\g<1>',r'\g<2>',r'\g<1>',r'\g<2>'), somestring)
 
 with open("./data/people.yml", "r", encoding="utf-8") as inf:
-  people = yaml.load(inf, Loader=yaml.FullLoader)
+    people = yaml.load(inf, Loader=yaml.FullLoader)
 
 with open("./data/courses.yml", "r", encoding="utf-8") as inf:
-  courses = yaml.load(inf, Loader=yaml.FullLoader)
-  courses = [course for course in courses if course['number'] is not None]
-  for course in courses:
-      course['description'] = [urlify(d) for d in course['description'].split('\n\n')]
+    courses = yaml.load(inf, Loader=yaml.FullLoader)
+    courses = [course for course in courses if course['number'] is not None]
+    get_course_description(courses)
+
+for course in courses:
+    course['url'] = f"https://courses.illinois.edu/schedule/terms/CS/{course['number'][2:]}"
+    course['description'] = [urlify(d) for d in course['description'].split('\n\n')]
 
 files = ['_index.html', '_people.html', '_contact.html', '_courses.html', '_study.html']
 
