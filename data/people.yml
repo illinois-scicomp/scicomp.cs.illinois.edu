@@ -66,11 +66,6 @@
     least-squares finite element methods,
     parallel numerical algorithms on GPUs and large-scale systems
 
-- name: Paul Saylor
-  url: http://www.cs.illinois.edu/homes/saylor/
-  category: emeritus
-  image: paul-saylor.jpeg
-
 - name: Mariana Silva
   url: https://publish.illinois.edu/marianasilva/
   image: mariana-silva.jpeg
@@ -769,6 +764,9 @@
 - category: former
   name: Ahmed Sameh
   url: http://www.cs.purdue.edu/people/faculty/sameh/
+- name: Paul Saylor
+  url: http://www.cs.illinois.edu/homes/saylor/
+  category: former
 - category: former
   name: Andrew Sherman
 - category: former
