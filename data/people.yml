@@ -10,8 +10,8 @@
   image:
   degree_what:
   degree_year:
-
-# {{{ faculty / emeritus
+  thesis_url:
+  thesis_title:
 
 - name: Paul Fischer
   url: https://fischerp.cs.illinois.edu/
@@ -63,8 +63,9 @@
   blurb:
 
     Multigrid and iterative methods for sparse linear systems,
+    numerical methods for partial differential equations,
     least-squares finite element methods,
-    parallel numerical algorithms on GPUs and large-scale systems
+    parallel numerical algorithms on GPUs, and large-scale systems
 
 - name: Mariana Silva
   url: https://publish.illinois.edu/marianasilva/
@@ -81,9 +82,7 @@
     tensor computations, electronic structure calculations,
     parallel programming abstractions
 
-# }}}
-
-# {{{ grad
+########################################################3
 
 - name: Pedro David Bello-Maldonado
   url: https://www.linkedin.com/in/metalcycling
@@ -91,24 +90,38 @@
 
 - name: Amanda Bienz
   url: https://www.cs.unm.edu/directory/faculty-profiles/amanda-bienz.html
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2018
+  thesis_url: https://www.ideals.illinois.edu/items/107611
+  thesis_title: Reducing communication in sparse solvers
+  advisors: Luke Olson
 
 - name: Nathan Bowman
   url: https://www.linkedin.com/in/nathan-bowman-b3811026
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2020
+  thesis_url: https://www.ideals.illinois.edu/items/117058
+  thesis_title: Computing minimum-volume enclosing ellipsoids
+  advisor1: Michael Heath
 
 - name: Erin Carrier
   url: https://eecarrier.github.io
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/111863
+  thesis_title: Exploiting compression in solving discretized linear systems
+  advisor1: Michael Heath
 
 - name: Paul Eller
-  category: grad
-
-- name: Eslami Hassan
-  category: grad
-
-- name: Scott High
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113747
+  thesis_title: Scalable non-blocking Krylov solvers for extreme-scale computing
+  advisor1: William Gropp
 
 - name: Ed Hutter
   category: grad
@@ -116,33 +129,72 @@
 
 - name: Samah Karim
   category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/125334
+  thesis_title: Inexact interior point methods for constrained convex quadratic optimization problems
+  advisor1: Edgar Solomonik
 
 - name: Huong Luu
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2015
+  thesis_url: https://www.ideals.illinois.edu/items/116054
+  thesis_title: Supertree-like methods for genome-scale species tree estimation
+  advisor1: Tandy Warnow 
+  advisor2: William Gropp
 
 - name: Erin Molloy
-  category: grad
   url: https://www.cs.umd.edu/people/ekmolloy
+  category: alumni
+  degree_what: PhD
+  degree_year: 2020
+  thesis_url: https://www.ideals.illinois.edu/items/79662
+  thesis_title: "Optimizing I/O performance for high performance computing applications: from auto-tuning to a feedback-driven approach"
+  advisor1: Marianne Winslett
+  advisor2: William Gropp
 
 - name: Tarun Prabhu
-  category: grad
   url: https://www.linkedin.com/in/tarunprabhu
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/124538
+  thesis_title: Just in time compilation for high performance computing 
+  advisor1: William Gropp
 
 - name: Andrew Reisner
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113746
+  thesis_title: Robust structured multigrid at extreme scales
+  advisor1: Luke Olson
 
 - name: James Stevens
-  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2021
+  thesis_url: https://www.ideals.illinois.edu/items/120936
+  thesis_title: Program transformation and code generation for developing, modeling, and optimizing GPU programs
+  advisor1: Andreas Kloeckner
 
-- name: Matt Wala
-  category: grad
+- name: Mateusz Wala
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113771
+  thesis_title: High-order numerical methods for layer potential evaluation
+  advisor1: Andreas Kloeckner
 
 - name: Xin Zhao
-  category: grad
-
-# }}}
-
-# {{{ alumni
+  category: alumni
+  degree_what: PhD
+  degree_year: 2016
+  thesis_url: https://www.ideals.illinois.edu/items/93288
+  thesis_title: Runtime support for irregular computation in MPI-based applications
+  advisor1: William Gropp
 
 - category: alumni
   degree_what: PhD
