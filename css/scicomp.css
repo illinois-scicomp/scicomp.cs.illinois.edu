@@ -37,6 +37,12 @@ body {
   width: 100%;
 }
 
+.btn-scicomp:hover, .btn-scicomp:focus, .btn-scicomp:active {
+  opacity: 1.0;
+  background-color: white;
+  font-weight: bold;
+}
+
 .sub-container {
   margin-top: 100px;
   opacity: 1.0;
