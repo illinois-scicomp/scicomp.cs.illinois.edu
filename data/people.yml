@@ -82,184 +82,22 @@
     tensor computations, electronic structure calculations,
     parallel programming abstractions
 
-########################################################3
+# (current)
 
 - name: Pedro David Bello-Maldonado
   url: https://www.linkedin.com/in/metalcycling
   category: grad
 
-- name: Amanda Bienz
-  url: https://www.cs.unm.edu/directory/faculty-profiles/amanda-bienz.html
-  category: alumni
-  degree_what: PhD
-  degree_year: 2018
-  thesis_url: https://www.ideals.illinois.edu/items/107611
-  thesis_title: Reducing communication in sparse solvers
-  advisors: Luke Olson
-
-- name: Nathan Bowman
-  url: https://www.linkedin.com/in/nathan-bowman-b3811026
-  category: alumni
-  degree_what: PhD
-  degree_year: 2020
-  thesis_url: https://www.ideals.illinois.edu/items/117058
-  thesis_title: Computing minimum-volume enclosing ellipsoids
-  advisor1: Michael Heath
-
-- name: Erin Carrier
-  url: https://eecarrier.github.io
-  category: alumni
-  degree_what: PhD
-  degree_year: 2019
-  thesis_url: https://www.ideals.illinois.edu/items/111863
-  thesis_title: Exploiting compression in solving discretized linear systems
-  advisor1: Michael Heath
-
-- name: Paul Eller
-  category: alumni
-  degree_what: PhD
-  degree_year: 2019
-  thesis_url: https://www.ideals.illinois.edu/items/113747
-  thesis_title: Scalable non-blocking Krylov solvers for extreme-scale computing
-  advisor1: William Gropp
-
 - name: Ed Hutter
   category: grad
   url: https://www.linkedin.com/in/edward-hutter-45320272/
 
-- name: Samah Karim
+- name: Nick Nytko
   category: grad
-  category: alumni
-  degree_what: PhD
-  degree_year: 2022
-  thesis_url: https://www.ideals.illinois.edu/items/125334
-  thesis_title: Inexact interior point methods for constrained convex quadratic optimization problems
-  advisor1: Edgar Solomonik
+  advisor: Luke Olson
 
-- name: Huong Luu
-  category: alumni
-  degree_what: PhD
-  degree_year: 2015
-  thesis_url: https://www.ideals.illinois.edu/items/116054
-  thesis_title: Supertree-like methods for genome-scale species tree estimation
-  advisor1: Tandy Warnow 
-  advisor2: William Gropp
+# (alumni)
 
-- name: Erin Molloy
-  url: https://www.cs.umd.edu/people/ekmolloy
-  category: alumni
-  degree_what: PhD
-  degree_year: 2020
-  thesis_url: https://www.ideals.illinois.edu/items/79662
-  thesis_title: "Optimizing I/O performance for high performance computing applications: from auto-tuning to a feedback-driven approach"
-  advisor1: Marianne Winslett
-  advisor2: William Gropp
-
-- name: Tarun Prabhu
-  url: https://www.linkedin.com/in/tarunprabhu
-  category: alumni
-  degree_what: PhD
-  degree_year: 2022
-  thesis_url: https://www.ideals.illinois.edu/items/124538
-  thesis_title: Just in time compilation for high performance computing 
-  advisor1: William Gropp
-
-- name: Andrew Reisner
-  category: alumni
-  degree_what: PhD
-  degree_year: 2019
-  thesis_url: https://www.ideals.illinois.edu/items/113746
-  thesis_title: Robust structured multigrid at extreme scales
-  advisor1: Luke Olson
-
-- name: James Stevens
-  category: alumni
-  degree_what: PhD
-  degree_year: 2021
-  thesis_url: https://www.ideals.illinois.edu/items/120936
-  thesis_title: Program transformation and code generation for developing, modeling, and optimizing GPU programs
-  advisor1: Andreas Kloeckner
-
-- name: Mateusz Wala
-  category: alumni
-  degree_what: PhD
-  degree_year: 2019
-  thesis_url: https://www.ideals.illinois.edu/items/113771
-  thesis_title: High-order numerical methods for layer potential evaluation
-  advisor1: Andreas Kloeckner
-
-- name: Xin Zhao
-  category: alumni
-  degree_what: PhD
-  degree_year: 2016
-  thesis_url: https://www.ideals.illinois.edu/items/93288
-  thesis_title: Runtime support for irregular computation in MPI-based applications
-  advisor1: William Gropp
-
-- category: alumni
-  degree_what: PhD
-  degree_year: 2007
-  name: David Alber
-  url: https://www.davidalber.net/
-- category: alumni
-  degree_what: MS
-  degree_year: 2005
-  name: Phillip Alexander
-  url: https://www.linkedin.com/in/phillip-alexander-6722b74
-- category: alumni
-  degree_what: MS
-  degree_year: 2005
-  name: Tyler Alumbaugh
-- category: alumni
-  degree_what: MS
-  degree_year: 1988
-  name: Edward Anderson
-- category: alumni
-  degree_what: PhD
-  degree_year: 2012
-  name: Nana Arizumi
-- category: alumni
-  degree_what: PhD
-  degree_year: 1988
-  name: Steven Ashby
-  url: https://www.pnnl.gov/about/bio/StevenAshby.asp
-- category: alumni
-  degree_what: PhD
-  degree_year: 2017
-  degree_year: 1990
-  name: Sohail Aslam
-  url: https://www.linkedin.com/pub/sohail-aslam/3/b82/904
-- name: Natalie Beams
-  dept: MechSE
-  url: https://www.eecs.utk.edu/people/natalie-beams
-  category: alumni
-- category: alumni
-  degree_what: PhD
-  degree_year: 2008
-  name: Nathan Bell
-- category: alumni
-  degree_what: PhD
-  degree_year: 1991
-  name: Michael Berry
-  url: https://www.eecs.utk.edu/people/michael-berry
-- category: alumni
-  degree_what: MS
-  degree_year: 1995
-  name: Robert Block
-- category: alumni
-  degree_what: PhD
-  degree_year: 1999
-  name: James Bordner
-  url: https://casswww.ucsd.edu/index.php/faculty:Jobordner
-- category: alumni
-  degree_what: PhD
-  degree_year: 1971
-  name: Amnon Bracha
-- category: alumni
-  degree_what: PhD
-  degree_year: 1989
-  name: Randall Bramley
-  url: https://luddy.indiana.edu/contact/profile/index.html?Randall_Bramley
 - category: alumni
   degree_what: PhD
   degree_year: 1975
@@ -374,7 +212,7 @@
   degree_what: PhD
   degree_year: 1960
   name: C. William Gear
-  url: https://www.princeton.edu/~wgear/
+  url: https://en.wikipedia.org/wiki/C._William_Gear
 - category: alumni
   degree_what: MS
   degree_year: 1994
@@ -828,4 +666,219 @@
 
 # }}}
 
-# vim: foldmethod=marker
+# # # complete and alphabetical by last name
+
+- name: David Alber
+  url: https://www.davidalber.net/
+  category: alumni
+  degree_what: PhD
+  degree_year: 2007
+  thesis_url: https://www.ideals.illinois.edu/items/11348
+  thesis_title: Efficient Setup Algorithms for Parallel Algebraic Multigrid
+  advisor1: Luke Olson
+  advisor2: Paul Saylor
+ 
+- name: Phillip Alexander
+  url: https://www.linkedin.com/in/phillip-alexander-6722b74
+  category: alumni
+  degree_what: MS
+  degree_year: 2005
+
+- name: Tyler Alumbaugh
+  category: alumni
+  degree_what: MS
+  degree_year: 2005
+
+- name: Edward Anderson
+  category: alumni
+  degree_what: MS
+  degree_year: 1988
+
+- name: Nana Arizumi
+  category: alumni
+  degree_what: PhD
+  degree_year: 2012
+  thesis_url: https://www.ideals.illinois.edu/items/31234 
+  thesis_title: Emergence and stability of complex structures from stochastic neuronal networks
+  advisor1: Todd Coleman
+
+- name: Steven Ashby
+  url: https://www.pnnl.gov/about/bio/StevenAshby.asp
+  category: alumni
+  degree_what: PhD
+  degree_year: 1988
+  thesis_url: https://www.ideals.illinois.edu/items/69752
+  thesis_title: Polynomial Preconditioning for Conjugate Gradient Method
+  advisor1: Paul Saylor
+
+- name: Sohail Aslam
+  url: https://www.linkedin.com/pub/sohail-aslam/3/b82/904
+  category: alumni
+  degree_what: PhD
+  degree_year: 1990
+  thesis_url: https://www.ideals.illinois.edu/items/22953 
+  thesis_title: Asynchronous waveform relaxation methods for ordinary differential equations on multiprocessors
+  advisor1: William Gear
+
+- name: Natalie Beams
+  url: https://www.eecs.utk.edu/people/natalie-beams
+  dept: MechSE
+  category: alumni
+  degree_what: PhD
+  degree_year: 2017
+  thesis_url: https://www.ideals.illinois.edu/items/103596
+  thesis_title: High-order hybrid methods using Green's functions and finite elements
+  advisor1: Luke Olson
+  advisor2: Andreas Kloeckner
+
+- name: Nathan Bell
+  category: alumni
+  degree_what: PhD
+  degree_year: 2008
+  thesis_url: https://www.ideals.illinois.edu/items/11505
+  thesis_title: Algebraic Multigrid For Discrete Differential Forms
+  advisor1: Luke Olson
+
+- name: Michael Berry
+  url: https://www.eecs.utk.edu/people/michael-berry
+  category: alumni
+  degree_what: PhD
+  degree_year: 1991
+  thesis_url: https://www.ideals.illinois.edu/items/19698
+  thesis_title: Multiprocessor sparse SVD algorithms and applications
+  advisor1: Ahmed Sameh
+
+- name: Amanda Bienz
+  url: https://www.cs.unm.edu/directory/faculty-profiles/amanda-bienz.html
+  category: alumni
+  degree_what: PhD
+  degree_year: 2018
+  thesis_url: https://www.ideals.illinois.edu/items/107611
+  thesis_title: Reducing communication in sparse solvers
+  advisors: Luke Olson
+
+- name: Robert Block
+  category: alumni
+  degree_what: MS
+  degree_year: 1995
+
+- name: James Bordner
+  url: https://casswww.ucsd.edu/index.php/faculty:Jobordner
+  category: alumni
+  degree_what: PhD
+  degree_year: 1999
+  thesis_url: https://www.ideals.illinois.edu/items/83232
+  thesis_title: An Adaptive Multilevel Method for Anisotropic Elliptic Problem
+  advisor1: Faisal Saied
+
+- name: Nathan Bowman
+  url: https://www.linkedin.com/in/nathan-bowman-b3811026
+  category: alumni
+  degree_what: PhD
+  degree_year: 2020
+  thesis_url: https://www.ideals.illinois.edu/items/117058
+  thesis_title: Computing minimum-volume enclosing ellipsoids
+  advisor1: Michael Heath
+
+- name: Amnon Bracha
+  category: alumni
+  degree_what: PhD
+  degree_year: 1971
+  thesis_url: https://www.ideals.illinois.edu/items/78022
+  thesis_title: A Symmetric Factorization Procedure for the Solution of Elliptic Boundaryvalue Problems
+  advisor1: Donald Gillies
+
+- name: Randall Bramley
+  url: https://luddy.indiana.edu/contact/profile/index.html?Randall_Bramley
+  category: alumni
+  degree_what: PhD
+  degree_year: 1989
+  thesis_url: https://www.ideals.illinois.edu/items/72224
+  thesis_title: Row Projection Methods for Linear Systems
+  advisor1: Ahmed Sameh
+
+- name: Erin Carrier
+  url: https://eecarrier.github.io
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/111863
+  thesis_title: Exploiting compression in solving discretized linear systems
+  advisor1: Michael Heath
+
+- name: Paul Eller
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113747
+  thesis_title: Scalable non-blocking Krylov solvers for extreme-scale computing
+  advisor1: William Gropp
+
+- name: Samah Karim
+  category: grad
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/125334
+  thesis_title: Inexact interior point methods for constrained convex quadratic optimization problems
+  advisor1: Edgar Solomonik
+
+- name: Huong Luu
+  category: alumni
+  degree_what: PhD
+  degree_year: 2015
+  thesis_url: https://www.ideals.illinois.edu/items/116054
+  thesis_title: Supertree-like methods for genome-scale species tree estimation
+  advisor1: Tandy Warnow 
+  advisor2: William Gropp
+
+- name: Erin Molloy
+  url: https://www.cs.umd.edu/people/ekmolloy
+  category: alumni
+  degree_what: PhD
+  degree_year: 2020
+  thesis_url: https://www.ideals.illinois.edu/items/79662
+  thesis_title: "Optimizing I/O performance for high performance computing applications: from auto-tuning to a feedback-driven approach"
+  advisor1: Marianne Winslett
+  advisor2: William Gropp
+
+- name: Tarun Prabhu
+  url: https://www.linkedin.com/in/tarunprabhu
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/124538
+  thesis_title: Just in time compilation for high performance computing 
+  advisor1: William Gropp
+
+- name: Andrew Reisner
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113746
+  thesis_title: Robust structured multigrid at extreme scales
+  advisor1: Luke Olson
+
+- name: James Stevens
+  category: alumni
+  degree_what: PhD
+  degree_year: 2021
+  thesis_url: https://www.ideals.illinois.edu/items/120936
+  thesis_title: Program transformation and code generation for developing, modeling, and optimizing GPU programs
+  advisor1: Andreas Kloeckner
+
+- name: Mateusz Wala
+  category: alumni
+  degree_what: PhD
+  degree_year: 2019
+  thesis_url: https://www.ideals.illinois.edu/items/113771
+  thesis_title: High-order numerical methods for layer potential evaluation
+  advisor1: Andreas Kloeckner
+
+- name: Xin Zhao
+  category: alumni
+  degree_what: PhD
+  degree_year: 2016
+  thesis_url: https://www.ideals.illinois.edu/items/93288
+  thesis_title: Runtime support for irregular computation in MPI-based applications
+  advisor1: William Gropp
