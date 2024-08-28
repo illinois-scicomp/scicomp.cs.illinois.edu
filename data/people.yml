@@ -99,27 +99,6 @@
 # (alumni)
 
 - category: alumni
-  degree_what: PhD
-  degree_year: 1975
-  name: Roy L. Brown Jr.
-- name: Jon Calhoun
-  url: https://ews.illinois.edu/~jccalho2/
-  degree_what: PhD
-  degree_year: 2017
-  category: alumni
-- name: Elena Caraba
-  degree_what: PhD
-  degree_year: 2015
-  category: alumni
-- category: alumni
-  degree_what: MCS
-  degree_year: 2003
-  name: Rossana Castro
-- category: alumni
-  degree_what: PhD
-  degree_year: 1988
-  name: Hsin-Chu Chen
-- category: alumni
   degree_what: MS
   degree_year: 2005
   name: Zhen Cheng
@@ -718,7 +697,7 @@
   degree_year: 1990
   thesis_url: https://www.ideals.illinois.edu/items/22953 
   thesis_title: Asynchronous waveform relaxation methods for ordinary differential equations on multiprocessors
-  advisor1: William Gear
+  advisor1: C. William Gear
 
 - name: Natalie Beams
   url: https://www.eecs.utk.edu/people/natalie-beams
@@ -797,6 +776,32 @@
   thesis_title: Row Projection Methods for Linear Systems
   advisor1: Ahmed Sameh
 
+- name: Roy L. Brown Jr.
+  category: alumni
+  degree_what: PhD
+  degree_year: 1975
+  thesis_url: https://www.ideals.illinois.edu/items/66544
+  thesis_title: Multi-Derivative Numerical Methods for the Solution of Stiff Ordinary Differential Equations
+  advisor1: C. William Gear
+
+- name: Jon Calhoun
+  url: https://ews.illinois.edu/~jccalho2/
+  degree_what: PhD
+  degree_year: 2017
+  category: alumni
+  thesis_url:  https://www.ideals.illinois.edu/items/103588
+  thesis_title: "From detection to optimization: impact of soft errors on high-performance computing applications"
+  advisor1: Luke Olson
+  advisor2: Marc Snir
+
+- name: Elena Caraba
+  degree_what: PhD
+  degree_year: 2015
+  category: alumni
+  thesis_url: https://www.ideals.illinois.edu/items/73160
+  thesis_title: Computational modeling and simulation of composite materials based on tomographic images
+  advisor1: Michael Heath
+
 - name: Erin Carrier
   url: https://eecarrier.github.io
   category: alumni
@@ -805,6 +810,19 @@
   thesis_url: https://www.ideals.illinois.edu/items/111863
   thesis_title: Exploiting compression in solving discretized linear systems
   advisor1: Michael Heath
+
+- name: Rossana Castro
+  category: alumni
+  degree_what: MS
+  degree_year: 2003
+
+- name: Hsin-Chu Chen
+  category: alumni
+  degree_what: PhD
+  degree_year: 1988
+  thesis_url: https://www.ideals.illinois.edu/items/69760
+  thesis_title: The SAS Domain Decomposition Method for Structural Analysis
+  advisor1: Ahmed Sameh
 
 - name: Paul Eller
   category: alumni
