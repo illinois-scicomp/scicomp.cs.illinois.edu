@@ -1,13 +1,11 @@
--
-  name:
-  # faculty | emeritus | grad | alumni | former
-  category:
+# add an entry for each degree/role
+- name:
+  category:    # faculty | emeritus | grad | alumni | former
+  role:        # faculty | postdoc | grad | undergrad | staff
   blurb:
   url:
-  # images/people/ is automatically prefixed.
-  # Drop images into live/images/people.
-  # 300x200 preferred.
-  image:
+  image:       # images/people/ is automatically prefixed.
+  year:        # what years where they here
   degree_what:
   degree_year:
   thesis_url:
@@ -98,23 +96,36 @@
 
 # (alumni)
 
-- category: alumni
+- name: Zhen Cheng
+  category: alumni
   degree_what: MS
   degree_year: 2005
-  name: Zhen Cheng
-- category: alumni
+
+- name: Wing Fai Chow
+  category: alumni
   degree_what: PhD
   degree_year: 2002
-  name: Wing Fai Chow
-- category: alumni
+  thesis_url: https://www.ideals.illinois.edu/items/82896
+  thesis_title: Three Dimensional Pseudospectral Self -Consistent Field Approximation
+  advisor1: Thomas Kerkhoven
+
+- name: Anthony Chronopoulos
+  url: https://www.cs.utsa.edu/faculty/atc/
+  category: alumni
   degree_what: PhD
   degree_year: 1987
-  name: Anthony Chronopoulos
-  url: https://www.cs.utsa.edu/faculty/atc/
-- category: alumni
+  thesis_url: https://www.cs.utsa.edu/~atc/pub/OP1.pdf
+  thesis_title: A class of parallel iterative methods implemented on multiprocessors
+  advisor1: C. William Gear
+
+- name: Won Lyang Chung
+  category: alumni
   degree_what: PhD
   degree_year: 1975
-  name: Won Lyang Chung
+  thesis_url: https://www.ideals.illinois.edu/items/66550
+  thesis_title: Automatic curve fitting for interactive display
+  advisor1: C. William Gear
+
 - category: alumni
   degree_what: PhD
   degree_year: 2008
@@ -841,6 +852,25 @@
   thesis_title: Inexact interior point methods for constrained convex quadratic optimization problems
   advisor1: Edgar Solomonik
 
+- name: Raghavendra Kanakagiri 
+  category: alumni
+  role: postdoc
+  year: 2021-2023 
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/125334
+  thesis_title: Inexact interior point methods for constrained convex quadratic optimization problems
+  advisor1: Edgar Solomonik
+
+
+- name: Kento Kaneko
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/124826
+  thesis_title: An augmented basis method for reduced order models of turbulent flow
+  advisor1: Paul Fischer
+
 - name: Huong Luu
   category: alumni
   degree_what: PhD
@@ -875,6 +905,14 @@
   degree_year: 2019
   thesis_url: https://www.ideals.illinois.edu/items/113746
   thesis_title: Robust structured multigrid at extreme scales
+  advisor1: Luke Olson
+
+- name: Peter Sentz
+  category: alumni
+  degree_what: PhD
+  degree_year: 2022
+  thesis_url: https://www.ideals.illinois.edu/items/125333
+  thesis_title: Reduced basis approximation and error estimation of parametrized partial differential equations
   advisor1: Luke Olson
 
 - name: James Stevens
