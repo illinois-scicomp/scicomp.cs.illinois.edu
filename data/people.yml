@@ -1,20 +1,27 @@
 # add an entry for each degree/role
-- name:
-  category:    # faculty | emeritus | grad | alumni | former
-  role:        # faculty | postdoc | grad | undergrad | staff
-  blurb:
-  url:
-  image:       # images/people/ is automatically prefixed.
-  year:        # what years where they here
-  degree_what:
-  degree_year:
-  thesis_url:
-  thesis_title:
+- # required
+  name:
+  category:      # faculty | grad | undergrad | postdoc | staff | visiting scholar
+  status:        # current | emeritus | alumni | former
+  # optional
+  blurb:         # for current faculty
+  url:           # if available.  preference: wikipedia, dept page, personal page, linkedin-type
+  image:         # images/people/ is automatically prefixed.
+  year_arrived:  # if faculty, postdoc, staff
+  year_left:     # if emeritus faculty, former postdoc, former staff
+  degree_what:   # if alumni
+  degree_year:   # if alumni
+  thesis_url:    # if available and if alumni
+  thesis_title:  # if available and if alumni
+  advisors:      # advisors, if student or postdoc
+    - First Advisor
+    - Second Advisor if any
 
 - name: Paul Fischer
   url: https://fischerp.cs.illinois.edu/
   image: paul-fischer.jpeg
   category: faculty
+  status: current
   blurb:
 
     Numerical PDEs,
@@ -27,6 +34,7 @@
   url: https://wgropp.cs.illinois.edu
   image: bill-gropp.jpeg
   category: faculty
+  status: current
   blurb:
 
     High performance numerical algorithms,
@@ -37,7 +45,8 @@
 - name: Michael Heath
   url: https://heath.cs.illinois.edu
   image: mike-heath.jpeg
-  category: emeritus
+  category: faculty
+  status: emeritus
   blurb:
 
     Numerical linear algebra and optimization,
@@ -46,6 +55,7 @@
 - name: Andreas Kl&#246;ckner
   url: https://andreask.cs.illinois.edu
   category: faculty
+  status: current
   image: andreas-kloeckner.jpeg
   blurb:
 
@@ -58,6 +68,7 @@
   url: https://lukeo.cs.illinois.edu
   image: luke-olson.jpeg
   category: faculty
+  status: current
   blurb:
 
     Multigrid and iterative methods for sparse linear systems,
@@ -69,224 +80,258 @@
   url: https://publish.illinois.edu/marianasilva/
   image: mariana-silva.jpeg
   category: faculty
+  status: current
 
 - name: Edgar Solomonik
   url: https://solomon2.cs.illinois.edu/
   image: edgar-solomonik.jpeg
   category: faculty
+  status: current
   blurb:
 
     Communication complexity, numerical linear algebra,
     tensor computations, electronic structure calculations,
     parallel programming abstractions
 
-# (current)
-
 - name: Pedro David Bello-Maldonado
   url: https://www.linkedin.com/in/metalcycling
   category: grad
+  status: current
 
 - name: Ed Hutter
   category: grad
+  status: current
   url: https://www.linkedin.com/in/edward-hutter-45320272/
 
 - name: Nick Nytko
+  degree_what: PhD
   category: grad
-  advisor: Luke Olson
+  status: current
+  advisor1: Luke Olson
 
 # (alumni)
 
 - name: Zhen Cheng
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2005
 
 - name: Wing Fai Chow
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2002
   thesis_url: https://www.ideals.illinois.edu/items/82896
   thesis_title: Three Dimensional Pseudospectral Self -Consistent Field Approximation
-  advisor1: Thomas Kerkhoven
+  advisors: Thomas Kerkhoven
 
 - name: Anthony Chronopoulos
   url: https://www.cs.utsa.edu/faculty/atc/
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1987
   thesis_url: https://www.cs.utsa.edu/~atc/pub/OP1.pdf
   thesis_title: A class of parallel iterative methods implemented on multiprocessors
-  advisor1: C. William Gear
+  advisors: C. William Gear
 
 - name: Won Lyang Chung
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1975
   thesis_url: https://www.ideals.illinois.edu/items/66550
   thesis_title: Automatic curve fitting for interactive display
-  advisor1: C. William Gear
+  advisors: C. William Gear
 
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2008
   name: Andrew Colombi
   url: https://www.linkedin.com/pub/andrew-colombi/5/2aa/9a5
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2009
   name: William Cochran
   url: https://www.linkedin.com/pub/bill-cochran/11/4ba/b3
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2008
   name: Eric Cyr
   url: https://www.sandia.gov/ccr/staff/eric-christopher-cyr/
-- name: Steven Dalton
-  url: https://ews.illinois.edu/~dalton6/
-  degree_what: PhD
-  degree_year: 2014
-  category: alumni
-- category: alumni
+
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1989
   name: Tim Davis
   url: https://people.engr.tamu.edu/davis/welcome.html
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1972
   name: Martin Diamond
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2003
   name: Robert Engle
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 1995
   name: Paulo Figueiredo
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 2003
   name: Hormozd Gahvari
   url: https://www.llnl.gov/community-education/employee-retirement-resources/in-memoriam/hormozd-gahvari
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1993
   name: Albert Galick
   url: https://www.linkedin.com/pub/albert-galick/3/b11/884
 - name: Hormozd Gahvari
   url: https://www.llnl.gov/community-education/employee-retirement-resources/in-memoriam/hormozd-gahvari
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2014
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1983
   name: Kyle Gallivan
   url: https://www.math.fsu.edu/~gallivan/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1985
   name: Efstratios Gallopoulos
   url: https://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1980
   name: Dennis Gannon
   url: https://research.microsoft.com/en-us/people/degannon/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2011
   name: Mark Gates
   url: https://www.eecs.utk.edu/people/mark-gates/
-- category: alumni
+
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1960
   name: C. William Gear
   url: https://en.wikipedia.org/wiki/C._William_Gear
-- category: alumni
+
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 1994
   name: Robert Gjertsen
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1959
   name: Gene Golub
   url: https://en.wikipedia.org/wiki/Gene_H._Golub
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1981
   name: Joseph Grcar
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1955
   name: Robert T. Gregory
   url: https://www.utexas.edu/faculty/council/2001-2002/memorials/Gregory/gregory.html
-- category: alumni
-  degree_what: PhD
-  degree_year: 2011
-  name: Jehanzeb Hameed Chaudhry
-  url: https://www.math.colostate.edu/~hameed/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2005
   name: David Hardy
   url: https://www.ks.illinois.edu/~dhardy
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2005
   name: Rebecca Hartman-Baker
   url: https://profiles.lbl.gov/22497-rebecca-hartmanbaker
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 2012
   name: Tom Hayes
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2011
   name: Russell Hewett
   url: https://www.rjh.io
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1997
   name: Jason Hibbeler
   url: https://www.uvm.edu/cems/cs/profiles/jason-hibbeler
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 2002
   name: Mark Hoemmen
   url: https://www.eecs.berkeley.edu/~mhoemmen/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1993
   name: Michael Holst
   url: https://ccom.ucsd.edu/~mholst/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1997
   name: Paul Hovland
   url: https://www.anl.gov/profile/paul-hovland
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2000
   name: Jesus Izaguirre
 - name: Peng Jiang
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2013
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2001
   name: Xiangmin Jiao
   url: https://www.ams.sunysb.edu/~jiao/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1990
   name: Fen Lien Juang
 - name: Vivek Kale
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2015
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1984
   name: Emmanuel Kamgnia
@@ -294,282 +339,335 @@
   url: https://www.iiitd.ac.in/kaushik
   degree_what: PhD
   degree_year: 2015
-  category: alumni
-- category: alumni
+  category: grad
+  status: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1986
   name: Chandrika Kamath
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1989
   name: Jerry Keiper
   url: https://www.stephenwolfram.com/publications/jerry-keiper/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1973
   name: Young Jip Kim
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1978
   name: Antony Kong
-- category: alumni
-  degree_what: PhD
-  degree_year: 2012
-  name: James Lai
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 1996
   name: Minghorng Lai
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1972
   name: Leonard Larsen
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1978
   name: John Larson
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1991
   name: Daeshik Lee
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1993
   name: Steven Lee
   url: https://www.linkedin.com/in/stevenleedoe
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1988
   name: Ben Leimkuhler
   url: https://www.maths.ed.ac.uk/~bleimkuh
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1972
   name: Raymond Lermit
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1976
   name: Bruce Link
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2004
   name: Vanessa Lopez
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1992
   name: Gang Lou
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2003
   name: Greg Mackey
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1975
   name: Tom Manteuffel
   url: https://grandmaster.colorado.edu/~tmanteuf/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1997
   name: Bret Marsolf
   url: https://www.linkedin.com/in/bret-marsolf-7608a716
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 2012
   name: Kyle McKiou
 - name: Matthew Michelotti
   degree_what: MS
   degree_year: 2012
-  category: alumni
-- category: alumni
+  category: grad
+  status: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1988
   name: William Mitchell
   url: https://math.nist.gov/~WMitchell/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1996
   name: Henry Neeman
   url: https://hneeman.oscer.ou.edu/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2007
   name: Hanna Neradt
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2000
   name: Boyana Norris
   url: https://www.mcs.anl.gov/~norris/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1993
   name: Daniel Okunbor
   url: https://faculty.uncfsu.edu/diokunbor/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2004
   name: Michael Parks
   url: https://www.sandia.gov/~mlparks/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1978
   name: Linda Petzold
   url: https://engineering.ucsb.edu/people/linda-petzold
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2001
   name: Ali Pinar
   url: https://www.sandia.gov/-apinar/staff/ali-pinar
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2011
   name: Adam Reichert
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1979
   name: Richard Roloff
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1981
   name: Mitchell Roth
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1994
   name: Sirpa Saarinen
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1997
   name: Vivek Sarin
   url: https://faculty.cs.tamu.edu/sarin/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1987
   name: Mark Schaeffer
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 2005
   name: Jessica Schoen
-- category: alumni
-  degree_what: PhD
-  degree_year: 2010
-  name: Jacob Schroder
-  url: https://people.llnl.gov/schroder2
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1988
   name: Jeffrey Scroggs
   url: https://math.sciences.ncsu.edu/people/scroggs/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1992
   name: Dave Semeraro
   url: https://tacc.utexas.edu/about/staff-directory/dave-semeraro
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1983
   name: Qasin Sheikh
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2006
   name: Christopher Siefert
   url: https://www.sandia.gov/-csiefer/staff/chris-siefert
-- category: alumni
+- category: undergrad
+  status: alumni
   degree_what: BS
   degree_year: 1998
   name: Tamar Shinar
   url: https://www.cs.ucr.edu/~shinar/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1984
   name: Sumantri Slamet
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1982
   name: Dennis Smolarski
   url: https://www.scu.edu/cas/mathcs/faculty-and-staff/dennis-smolarski/
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1980
   name: Bert Speelpenning
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2002
   name: Gary Spieler
   url: https://www.linkedin.com/in/gary-spieler
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1996
   name: Michael Stewart
   url: https://www.mathstat.gsu.edu/Michael_Stewart.html
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2001
   name: Ryan Szypowski
   url: https://www.cpp.edu/sci/mathematics-statistics/faculty-and-staff/full-time.shtml
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1989
   name: Hon Wah Tam
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2001
   name: Ismail Tezcan
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1972
   name: Kai-Wen Tu
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2009
   name: Evan VanderZee
   url: https://www.linkedin.com/pub/evan-vanderzee/4/512/63
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1980
   name: John Van Rosendale
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1999
   name: Akhil Vidwans
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1983
   name: Thu Van Vu
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2007
   name: Shun Wang
   url: https://www.linkedin.com/in/shunwang
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2005
   name: Wei Wang
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1994
   name: Xiaoge Wang
   url: https://icer.msu.edu/research/Academic-Research-Consulting-Services/Xiaoge-Wang
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1982
   name: Daniel Wells
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1975
   name: Sally Foote Wilkins
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1981
   name: John Wisniewski
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2009
   name: Michael Wolf
   url: https://www.linkedin.com/in/michaelmwolf
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1990
   name: Gun-Chung Yang
-- category: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1995
   name: Ulrike Meier Yang
@@ -578,89 +676,122 @@
   url: https://www.linkedin.com/in/dmitryyershov/
   degree_what: PhD
   degree_year: 2013
-  category: alumni
-- category: alumni
+  category: grad
+  status: alumni
+- category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2002
   name: Gang Zou
-
-# }}}
-
-# {{{ former
-
-- category: former
+- category: faculty
+  status: former
   name: Stephen Bond
   url: https://www.sandia.gov/-sdbond/staff/stephen-d-bond
-- category: former
+- category: faculty
+  status: former
   name: George Cybenko
   url: https://engineering.dartmouth.edu/community/faculty/george-cybenko
-- category: former
+- category: faculty
+  status: former
   name: Eric de Sturler
   url: https://math.vt.edu/people/faculty/desturler-eric.html
-- category: former
+- category: staff
   name: Victor Eijkhout
+  status: former
   url: https://tacc.utexas.edu/about/staff-directory/victor-eijkhout/
-- category: former
+- category: faculty
+  status: former
   name: Kyle Gallivan
   url: https://www.math.fsu.edu/~gallivan/
-- category: former
+- category: faculty
+  status: former
   name: Efstratios Gallopoulos
   url: https://scgroup.hpclab.ceid.upatras.gr/faculty/stratis/stratise.html
-- category: former
+- category: faculty
+  status: emeritus
   name: C. William Gear
-  url: https://www.princeton.edu/~wgear/
-- category: former
+  url: https://en.wikipedia.org/wiki/C._William_Gear
+- category: staff
+  status: former
   name: William Harrod
-- category: former
+- category: faculty
+  status: former
   name: Anil Hirani
   url: https://math.illinois.edu/directory/profile/hirani
-- category: former
+- category: faculty
+  status: former
   name: Thomas Kerkhoven
-- category: former
+- category: grad
+  status: alumni
+  degree_what: MS
+  degree_year: 1996
   name: Joerg Liesen
-  url: https://www.math.tu-berlin.de/fachgebiete_ag_modnumdiff/fg_numerische_lineare_algebra/v-menue/mitarbeiter/prof_dr_joerg_liesen/home/
-- category: former
+  url: https://www.tu.berlin/nla/joerg-liesen
+- category: postdoc
+  status: former
+  year_arrived: 1991
+  year_left: 1994
   name: Padma Raghavan
   url: https://en.wikipedia.org/wiki/Padma_Raghavan
-- category: former
+- category: faculty
+  status: former
+  year_arrived: 1986
+  year_left: 1988
   name: Yousef Saad
   url: https://en.wikipedia.org/wiki/Yousef_Saad
-- category: former
+- category: faculty
   name: Faisal Saied
+  status: former
+  year_arrived: 1990
+  year_left: 1997
   url: https://www.linkedin.com/in/faisal-saied-397a711a
-- category: former
+- category: faculty
+  status: former
   name: Ahmed Sameh
-  url: https://www.cs.purdue.edu/people/faculty/sameh/
+  year_arrived: 1968
+  year_left: 1993
+  url: https://en.wikipedia.org/wiki/Ahmed_Sameh
 - name: Paul Saylor
   url: https://siebelschool.illinois.edu/news/professor-emeritus-paul-saylor-dies-81
-  category: former
-- category: former
+  category: faculty
+  status: former
+- category: faculty
+  status: former
   name: Andrew Sherman
-- category: former
+- category: visiting scholar
+  status: former
   name: Valeria Simoncini
   url: https://en.wikipedia.org/wiki/Valeria_Simoncini
-- category: former
+- category: faculty
+  status: former
   name: Robert Skeel
   url: https://siebelschool.illinois.edu/news/a-time-of-giants-remembering-robert-bob-skeel-and-the-impactful-numerical-analysis-group
-- category: former
+- category: faculty
+  status: emeritus
   name: Abraham Taub
   url: https://en.wikipedia.org/wiki/Abraham_H._Taub
-- category: former
+- category: faculty
+  status: former
+  year_arrived: 1997
+  year_left: 2001
   name: Shang-Hua Teng
   url: https://viterbi-web.usc.edu/~shanghua/
-- category: former
+- category: faculty
+  status: former
+  year_arrived: 1991
+  year_left: 1994
   name: Paul Van Dooren
   url: https://perso.uclouvain.be/paul.vandooren/
-- category: former
+- category: faculty
+  status: former
   name: Daniel S. Watanabe
-
-# }}}
 
 # # # complete and alphabetical by last name
 
 - name: David Alber
   url: https://www.davidalber.net/
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2007
   thesis_url: https://www.ideals.illinois.edu/items/11348
@@ -670,22 +801,26 @@
  
 - name: Phillip Alexander
   url: https://www.linkedin.com/in/phillip-alexander-6722b74
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2005
 
 - name: Tyler Alumbaugh
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2005
 
 - name: Edward Anderson
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 1988
 
 - name: Nana Arizumi
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2012
   thesis_url: https://www.ideals.illinois.edu/items/31234 
@@ -694,7 +829,8 @@
 
 - name: Steven Ashby
   url: https://www.pnnl.gov/about/bio/StevenAshby.asp
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1988
   thesis_url: https://www.ideals.illinois.edu/items/69752
@@ -703,7 +839,8 @@
 
 - name: Sohail Aslam
   url: https://www.linkedin.com/pub/sohail-aslam/3/b82/904
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1990
   thesis_url: https://www.ideals.illinois.edu/items/22953 
@@ -713,7 +850,8 @@
 - name: Natalie Beams
   url: https://www.eecs.utk.edu/people/natalie-beams
   dept: MechSE
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2017
   thesis_url: https://www.ideals.illinois.edu/items/103596
@@ -722,7 +860,8 @@
   advisor2: Andreas Kloeckner
 
 - name: Nathan Bell
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2008
   thesis_url: https://www.ideals.illinois.edu/items/11505
@@ -731,7 +870,8 @@
 
 - name: Michael Berry
   url: https://www.eecs.utk.edu/people/michael-berry
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1991
   thesis_url: https://www.ideals.illinois.edu/items/19698
@@ -740,7 +880,8 @@
 
 - name: Amanda Bienz
   url: https://www.cs.unm.edu/directory/faculty-profiles/amanda-bienz.html
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2018
   thesis_url: https://www.ideals.illinois.edu/items/107611
@@ -748,13 +889,15 @@
   advisors: Luke Olson
 
 - name: Robert Block
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 1995
 
 - name: James Bordner
   url: https://casswww.ucsd.edu/index.php/faculty:Jobordner
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1999
   thesis_url: https://www.ideals.illinois.edu/items/83232
@@ -763,7 +906,8 @@
 
 - name: Nathan Bowman
   url: https://www.linkedin.com/in/nathan-bowman-b3811026
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2020
   thesis_url: https://www.ideals.illinois.edu/items/117058
@@ -771,7 +915,8 @@
   advisor1: Michael Heath
 
 - name: Amnon Bracha
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1971
   thesis_url: https://www.ideals.illinois.edu/items/78022
@@ -780,7 +925,8 @@
 
 - name: Randall Bramley
   url: https://luddy.indiana.edu/contact/profile/index.html?Randall_Bramley
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1989
   thesis_url: https://www.ideals.illinois.edu/items/72224
@@ -788,7 +934,8 @@
   advisor1: Ahmed Sameh
 
 - name: Roy L. Brown Jr.
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1975
   thesis_url: https://www.ideals.illinois.edu/items/66544
@@ -799,7 +946,8 @@
   url: https://ews.illinois.edu/~jccalho2/
   degree_what: PhD
   degree_year: 2017
-  category: alumni
+  category: grad
+  status: alumni
   thesis_url:  https://www.ideals.illinois.edu/items/103588
   thesis_title: "From detection to optimization: impact of soft errors on high-performance computing applications"
   advisor1: Luke Olson
@@ -808,14 +956,16 @@
 - name: Elena Caraba
   degree_what: PhD
   degree_year: 2015
-  category: alumni
+  category: grad
+  status: alumni
   thesis_url: https://www.ideals.illinois.edu/items/73160
   thesis_title: Computational modeling and simulation of composite materials based on tomographic images
   advisor1: Michael Heath
 
 - name: Erin Carrier
   url: https://eecarrier.github.io
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2019
   thesis_url: https://www.ideals.illinois.edu/items/111863
@@ -823,29 +973,63 @@
   advisor1: Michael Heath
 
 - name: Rossana Castro
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: MS
   degree_year: 2003
 
+- name: Jehanzeb Hameed Chaudhry
+  url: https://www.math.colostate.edu/~hameed/
+  category: grad
+  status: alumni
+  degree_what: PhD
+  degree_year: 2011
+  thesis_url: https://hdl.handle.net/2142/26319
+  thesis_title: Finite element methods for implicit solvent models
+  advisor1: Luke Olson
+
 - name: Hsin-Chu Chen
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 1988
   thesis_url: https://www.ideals.illinois.edu/items/69760
   thesis_title: The SAS Domain Decomposition Method for Structural Analysis
   advisor1: Ahmed Sameh
 
+- name: Steven Dalton
+  category: grad
+  status: alumni
+  url: https://ews.illinois.edu/~dalton6/
+  degree_what: PhD
+  degree_year: 2014
+  thesis_url: https://hdl.handle.net/2142/72802
+  thesis_title: Data parallel algebraic multigrid
+  advisor1: Luke Olson
+
 - name: Paul Eller
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2019
   thesis_url: https://www.ideals.illinois.edu/items/113747
   thesis_title: Scalable non-blocking Krylov solvers for extreme-scale computing
   advisor1: William Gropp
 
+- name: Adam Hug
+  category: grad
+  category: grad
+  status: alumni
+  degree_what: MS
+  degree_year: 2014
+  thesis_url: https://hdl.handle.net/2142/50397 
+  thesis_title: Generating random power grids for the verification of new load flow solvers 
+  advisor1: Luke Olson
+
 - name: Samah Karim
   category: grad
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2022
   thesis_url: https://www.ideals.illinois.edu/items/125334
@@ -853,8 +1037,9 @@
   advisor1: Edgar Solomonik
 
 - name: Raghavendra Kanakagiri 
-  category: alumni
-  role: postdoc
+  category: grad
+  status: alumni
+  category: postdoc
   year: 2021-2023 
   degree_what: PhD
   degree_year: 2022
@@ -864,15 +1049,35 @@
 
 
 - name: Kento Kaneko
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2022
   thesis_url: https://www.ideals.illinois.edu/items/124826
   thesis_title: An augmented basis method for reduced order models of turbulent flow
   advisor1: Paul Fischer
 
+- name: James Lai
+  category: grad
+  status: alumni
+  degree_what: PhD
+  degree_year: 2012
+  thesis_url: https://hdl.handle.net/2142/34237
+  thesis_title: Conservation and efficiency in least squares finite element methods
+  advisor1: Luke Olson
+
+- name: Shelby Lockhart
+  category: grad
+  status: alumni
+  degree_what: PhD
+  degree_year: 2023
+  thesis_url: https://www.ideals.illinois.edu/items/127470
+  thesis_title: Reducing communication bottlenecks in iterative solvers
+  advisor1: Luke Olson
+
 - name: Huong Luu
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2015
   thesis_url: https://www.ideals.illinois.edu/items/116054
@@ -882,7 +1087,8 @@
 
 - name: Erin Molloy
   url: https://www.cs.umd.edu/people/ekmolloy
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2020
   thesis_url: https://www.ideals.illinois.edu/items/79662
@@ -892,7 +1098,8 @@
 
 - name: Tarun Prabhu
   url: https://www.linkedin.com/in/tarunprabhu
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2022
   thesis_url: https://www.ideals.illinois.edu/items/124538
@@ -900,39 +1107,88 @@
   advisor1: William Gropp
 
 - name: Andrew Reisner
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2019
   thesis_url: https://www.ideals.illinois.edu/items/113746
   thesis_title: Robust structured multigrid at extreme scales
   advisor1: Luke Olson
 
+- name: Philipp Samfass
+  category: grad
+  status: alumni
+  degree_what: MS
+  degree_year: 2016
+  thesis_url: https://hdl.handle.net/2142/92959
+  thesis_title: Towards a deeper understanding of hybrid programming
+  advisor1: William Gropp
+  advisor1: Luke Olson
+
+- name: Jacob Schroder
+  url: https://people.llnl.gov/schroder2
+  category: grad
+  status: alumni
+  degree_what: PhD
+  degree_year: 2010
+  thesis_url: https://hdl.handle.net/2142/17044
+  thesis_title: Generalizing smoothed aggregation-based algebraic multigrid
+  advisor1: Luke Olson
+
 - name: Peter Sentz
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2022
   thesis_url: https://www.ideals.illinois.edu/items/125333
   thesis_title: Reduced basis approximation and error estimation of parametrized partial differential equations
   advisor1: Luke Olson
 
+- name: Lukas Spies
+  url: https://luspi.de/
+  category: grad
+  status: current
+  degree_what: PhD
+  advisor1: Luke Olson
+
 - name: James Stevens
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2021
   thesis_url: https://www.ideals.illinois.edu/items/120936
   thesis_title: Program transformation and code generation for developing, modeling, and optimizing GPU programs
   advisor1: Andreas Kloeckner
 
+- name: Alexey Voronin
+  url: https://alexey-voronin.github.io/
+  category: grad
+  status: current
+  degree_what: PhD
+  advisor1: Luke Olson
+
 - name: Mateusz Wala
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2019
   thesis_url: https://www.ideals.illinois.edu/items/113771
   thesis_title: High-order numerical methods for layer potential evaluation
   advisor1: Andreas Kloeckner
 
+- name: Matt Wrobel
+  category: grad
+  category: grad
+  status: alumni
+  degree_what: MS
+  degree_year: 2012
+  thesis_url: https://hdl.handle.net/2142/29751
+  thesis_title: A particle-in-cell framework for the simulation of cellular chemotaxis
+  advisor1: Luke Olson
+
 - name: Xin Zhao
-  category: alumni
+  category: grad
+  status: alumni
   degree_what: PhD
   degree_year: 2016
   thesis_url: https://www.ideals.illinois.edu/items/93288
